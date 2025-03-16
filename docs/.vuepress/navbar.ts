@@ -1,0 +1,25 @@
+import { defineNavbarConfig } from 'vuepress-theme-plume'
+
+export const navbar = defineNavbarConfig([
+  // { text: '首页', link: '/', icon: 'lets-icons:home-duotone' },
+  { text: '博客', link: '/blog/', icon: 'material-symbols:menu-book' },
+  // { text: '分类', link: '/blog/categories/', icon: 'mingcute:classify-2-fill' },
+  // { text: '标签', link: '/blog/tags/', icon: 'mingcute:tag-2-fill' },
+  // { text: '归档', link: '/blog/archives/', icon: 'fluent:archive-16-filled' },
+  {
+    text: '笔记',
+    icon: 'icon-park-solid:bookshelf',
+    items: [
+      { text: '中级会计', link: '/notes/中级会计/' },
+      { text: 'CTA', link: '/notes/CTA/' },
+      { text: 'CPA', link: '/notes/CPA/' }
+    ]
+  },
+  {
+    text: '政策',
+    icon: 'mingcute:building-4-fill',
+    items: [
+      { text: '房地产', link: '/notes/房地产/' }
+    ]
+  }
+])
