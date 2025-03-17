@@ -6,7 +6,7 @@ externalLinkIcon: false
 config:
   -
     type: banner
-    banner: https://bing-wallpaper.070112.xyz
+    banner: https://bing-wallpaper.hnr1.xyz
     bannerMask:
       light: 0.1
       dark: 0.3
