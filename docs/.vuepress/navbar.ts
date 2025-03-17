@@ -2,13 +2,13 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const navbar = defineNavbarConfig([
   // { text: '首页', link: '/', icon: 'lets-icons:home-duotone' },
-  { text: '博客', link: '/blog/', icon: 'material-symbols:menu-book' },
+  { text: '博客', link: '/blog/', icon: 'solar:book-2-bold' },
   // { text: '分类', link: '/blog/categories/', icon: 'mingcute:classify-2-fill' },
   // { text: '标签', link: '/blog/tags/', icon: 'mingcute:tag-2-fill' },
   // { text: '归档', link: '/blog/archives/', icon: 'fluent:archive-16-filled' },
   {
     text: '笔记',
-    icon: 'icon-park-solid:bookshelf',
+    icon: 'mingcute:book-3-fill',
     items: [
       { text: '中级会计', link: '/notes/中级会计/' },
       { text: 'CTA', link: '/notes/CTA/' },
