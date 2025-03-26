@@ -169,90 +169,72 @@ function foo() {
 ```
 
 ::: note 注释
-注释内容 [link](https://github.com/pengzhanbo) `inline code`
+强调用户在快速浏览文档时也不应忽略的重要信息。
+文本写作时更加关注==纵向内容==或==名词解释==。
 
-```js
-const a = 1
-const b = 2
-const c = a + b
+```markdown
+A1-A2-A3
 ```
 
 :::
 
 ::: info 信息
-信息内容 [link](https://github.com/pengzhanbo) `inline code`
+文本写作时更加关注==横向内容==或==扩充联想==。
 
 ```js
-const a = 1
-const b = 2
-const c = a + b
+A-B-C
 ```
 
 :::
 
 ::: tip 提示
-提示内容 [link](https://github.com/pengzhanbo) `inline code`
-
-```js
-const a = 1
-const b = 2
-const c = a + b
-```
+有助于用户更顺利达成目标的建议性信息。
+文本写作时更加关注==小技巧==或==小建议==。
 
 :::
 
 ::: warning 警告
-警告内容 [link](https://github.com/pengzhanbo) `inline code`
-
-```js
-const a = 1
-const b = 2
-const c = a + b
-```
+因为可能存在风险，所以需要用户立即关注的关键内容。
+文本写作时更加关注==风险事项==或==待办事项==。
 
 :::
 
 ::: caution 错误
-错误内容 [link](https://github.com/pengzhanbo) `inline code`
-
-```js
-const a = 1
-const b = 2
-const c = a + b
-```
+行为可能带来的负面影响。
+文本写作时更加关注==警报==或==红线==。
 
 :::
 
 ::: important 重要
-重要内容 [link](https://github.com/pengzhanbo) `inline code`
-
-```js
-const a = 1
-const b = 2
-const c = a + b
-```
+对用户达成目标至关重要的信息。
+文本写作时更加关注==关键步骤==或==关键信息==。
 
 :::
 
 **GFM alert：**
 
 > [!note]
-> note
+> 强调用户在快速浏览文档时也不应忽略的重要信息。
+> 文本写作时更加关注==纵向内容==或==名词解释==。
 
 > [!info]
-> info
+> 文本写作时更加关注==横向内容==或==扩充联想==。
 
 > [!tip]
-> tip
+> 有助于用户更顺利达成目标的建议性信息。
+> 文本写作时更加关注==小技巧==或==小建议==。
 
 > [!warning]
-> warning
+> 因为可能存在风险，所以需要用户立即关注的关键内容。
+> 文本写作时更加关注==风险事项==或==待办事项==。
 
 > [!caution]
-> caution
+> 行为可能带来的负面影响。
+> 文本写作时更加关注==警报==或==红线==。
 
 > [!important]
-> important
+> 对用户达成目标至关重要的信息。
+> 文本写作时更加关注==关键步骤==或==关键信息==。
 
 **代码演示：**
 
