@@ -3,8 +3,8 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af",
-  "author": "hnr",
+  "packageManager": "pnpm@10.6.5",
+  "author": "wilson1202 <ibox_wilson@outlook.com>",
   "license": "MIT",
   "engines": {
     "node": "^18.20.0 || >=20.0.0"
@@ -18,12 +18,21 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
-    "@vueuse/core": "^12.8.2",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.86.0",
     "typescript": "^5.8.2",
     "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.20",
     "vuepress-theme-plume": "1.0.0-rc.137"
+  },
+  "dependencies": {
+    "artplayer": "^5.2.2",
+    "chart.js": "^4.4.8",
+    "dashjs": "^5.0.0",
+    "echarts": "^5.6.0",
+    "flowchart.ts": "^3.0.1",
+    "hls.js": "^1.6.0",
+    "mermaid": "^11.6.0",
+    "mpegts.js": "^1.8.0"
   }
 }

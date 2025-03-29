@@ -19,7 +19,4 @@ config:
           theme: brand
           text: 博客
           link: /blog/
-
-
-
 ---
