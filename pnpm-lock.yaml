@@ -36,6 +36,9 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.20
         version: 2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2)
+      '@vuepress/plugin-markdown-include':
+        specifier: 2.0.0-rc.90
+        version: 2.0.0-rc.90(markdown-it@14.1.0)(typescript@5.8.2)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))
       http-server:
         specifier: ^14.1.1
         version: 14.1.1
@@ -1228,6 +1231,11 @@ packages:
     peerDependencies:
       vuepress: 2.0.0-rc.20
 
+  '@vuepress/helper@2.0.0-rc.90':
+    resolution: {integrity: sha512-Muka4gW9LP+Sy1okW51bjxzFqAu0V7fzxQIhPQYMWmG9odbyR1yalxVUETeQNt6j0j7xWf+V8cbIb8QHmaXokQ==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.20
+
   '@vuepress/highlighter-helper@2.0.0-rc.85':
     resolution: {integrity: sha512-l2WpPwWO8XXbatoBvNWgsN1eSaukOIpUSNRsxoea2rEnSg4SDZg0T/G/DKQnO26OzQ0uICtBq4BP6fDJDaJbAw==}
     peerDependencies:
@@ -1287,6 +1295,11 @@ packages:
 
   '@vuepress/plugin-markdown-include@2.0.0-rc.86':
     resolution: {integrity: sha512-imosNpxWyiRaFNOeYqxEiAqpwZZwst8Li9RZvIubUeKHSRAutnDuKX5fn5Yqn3PlcBukY1nBAVcodsMQF6rm3w==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.20
+
+  '@vuepress/plugin-markdown-include@2.0.0-rc.90':
+    resolution: {integrity: sha512-uUOi7KvW487OEsBcDsJ1OT65838q1KyhVz9ybmiSmDXBzuFEr9C4/8BhdiWSM3t30uFM4e/f4GZuV0sj305LBg==}
     peerDependencies:
       vuepress: 2.0.0-rc.20
 
@@ -4439,6 +4452,18 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
+  '@vuepress/helper@2.0.0-rc.90(typescript@5.8.2)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))':
+    dependencies:
+      '@vue/shared': 3.5.13
+      '@vueuse/core': 13.0.0(vue@3.5.13(typescript@5.8.2))
+      cheerio: 1.0.0
+      fflate: 0.8.2
+      gray-matter: 4.0.3
+      vue: 3.5.13(typescript@5.8.2)
+      vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
+    transitivePeerDependencies:
+      - typescript
+
   '@vuepress/highlighter-helper@2.0.0-rc.85(@vueuse/core@13.0.0(vue@3.5.13(typescript@5.8.2)))(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))':
     dependencies:
       vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
@@ -4550,6 +4575,16 @@ snapshots:
       '@mdit/plugin-include': 0.16.0(markdown-it@14.1.0)
       '@types/markdown-it': 14.1.2
       '@vuepress/helper': 2.0.0-rc.86(typescript@5.8.2)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))
+      vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
+    transitivePeerDependencies:
+      - markdown-it
+      - typescript
+
+  '@vuepress/plugin-markdown-include@2.0.0-rc.90(markdown-it@14.1.0)(typescript@5.8.2)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))':
+    dependencies:
+      '@mdit/plugin-include': 0.16.0(markdown-it@14.1.0)
+      '@types/markdown-it': 14.1.2
+      '@vuepress/helper': 2.0.0-rc.90(typescript@5.8.2)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))
       vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.14)(less@4.2.2)(sass-embedded@1.86.0)(sass@1.86.0)(stylus@0.64.0)(typescript@5.8.2))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
     transitivePeerDependencies:
       - markdown-it

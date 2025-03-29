@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/plugin-markdown-include": "2.0.0-rc.90",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.86.0",
     "typescript": "^5.8.2",
