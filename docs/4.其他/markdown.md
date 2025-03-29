@@ -181,7 +181,7 @@ A1-A2-A3
 ::: info 信息
 文本写作时更加关注==横向内容==或==扩充联想==。
 
-```js
+```markdown
 A-B-C
 ```
 
@@ -288,6 +288,64 @@ app.appendChild(window.document.createElement('small')).textContent = a
 内容区块
 :::
 ::::
+
+
+
+```json title="package.json"
+{
+  "name": "vuepress-theme-plume"
+}
+```
+
+
+
+::: details 
+This is a details block. 
+:::
+
+
+
+::: collapse
+- 标题 1
+
+  正文内容
+
+- 标题 2
+
+  正文内容
+  
+
+:::
+
+
+
+::: tabs
+@tab 【单选题】
+
+1. 小明同学去摘苹果（  ）。   
+   A.    
+   B.   
+   C.   
+   D.         
+   
+	**解析**：点击时可见 
+	
+
+---
+
+2. 小红同学去跑步（  ）。   
+   A.   
+   B.  
+   C.  
+   D.  
+
+@tab 【判断题】  
+
+1. 一去二三里（  ）  
+
+:::
+
+
 
 **脚注：**
 

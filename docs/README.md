@@ -12,7 +12,7 @@ config:
       dark: 0.3
     hero:
       name: 岐山行
-      tagline: 心中仍有梦
+      tagline: 心中仍有梦，行则将至
       text: 即使慢，驰而不息，纵会落后，纵会失败，但一定可以达到他所向往的目标。
       actions:
         -
