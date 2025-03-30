@@ -304,7 +304,6 @@ This is a details block.
 :::
 
 
-
 ::: collapse
 - 标题 1
 
@@ -313,9 +312,8 @@ This is a details block.
 - 标题 2
 
   正文内容
-  
-
 :::
+
 
 
 
@@ -344,6 +342,10 @@ This is a details block.
 1. 一去二三里（  ）  
 
 :::
+
+
+
+假定无风险收益率为 $R_f$，市场平均收益率为 $R_m$，某股票贝塔系数为 $\beta$，则普通股资本成本为：$K_s = R_f + \beta \times (R_m - R_f)$
 
 
 
