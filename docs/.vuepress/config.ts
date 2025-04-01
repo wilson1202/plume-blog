@@ -18,7 +18,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://blog.hnr1.xyz',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -65,19 +65,19 @@ export default defineUserConfig({
     // },
 
     /* 本地搜索, 默认启用 */
-    search: { provider: 'local' },
+    // search: { provider: 'local' },
 
     /**
      * Algolia DocSearch
      * 启用此搜索需要将 本地搜索 search 设置为 false
      * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
      */
-    // search: {
-    //   provider: 'algolia',
-    //   appId: '',
-    //   apiKey: '',
-    //   indexName: '',
-    // },
+    search: {
+      provider: 'algolia',
+      appId: '8RJSX18NRG',
+      apiKey: 'de298727d7c0642899c49cb308ef1e92',
+      indexName: 'hnr1',
+    },
 
     /**
      * Shiki 代码高亮
