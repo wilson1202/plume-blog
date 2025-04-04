@@ -1,6 +1,5 @@
 :root {
   /** 主题颜色 */
-
   /*
   --vp-c-brand-1: #5086a1;
   --vp-c-brand-2: #6aa1b7;
@@ -9,7 +8,6 @@
   */
 
   /** 背景颜色 */
-
   /*
   --vp-c-bg: #fff;
   --vp-c-bg-alt: #f6f6f7;
@@ -18,33 +16,88 @@
   */
 
   /** 文本颜色 */
-
   /*
   --vp-c-text-1: rgba(60, 60, 67);
   --vp-c-text-2: rgba(60, 60, 67, 0.78);
   --vp-c-text-3: rgba(60, 60, 67, 0.56);
   */
-}
 
-/** 深色模式 */
-[data-theme="dark"] {
-  /*
-  --vp-c-brand-1: #8cccd5;
-  --vp-c-brand-2: #6aa1b7;
-  --vp-c-brand-3: #5086a1;
-  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);
-  */
+  /** mark 样式 */
+  mark {
+    --vp-mark-text: currentcolor;
+    --vp-mark-bg: transparent;
+    --vp-mark-bg-shift: 0.0lh;
+    --vp-mark-linear-color: var(--vp-c-brand-3);
+    --vp-mark-bg-image: linear-gradient(to right, var(--vp-mark-linear-color) 50%, transparent 50%);
+    /* 设置圆角，值可以根据需要调整 */
+    border-radius: 4px; 
+  }
 
-  /*
-  --vp-c-bg: #1b1b1f;
-  --vp-c-bg-alt: #161618;
-  --vp-c-bg-elv: #202127;
-  --vp-c-bg-soft: #202127;
-  */
+  mark.note {
+    --vp-mark-linear-color: #ff0;
+  }
 
-  /*
-  --vp-c-text-1: rgba(255, 255, 245, 0.86);
-  --vp-c-text-2: rgba(235, 235, 245, 0.6);
-  --vp-c-text-3: rgba(235, 235, 245, 0.38);
-  */
+  mark.info {
+    --vp-mark-linear-color: var(--vp-c-default-1);
+  }
+
+  mark.tip {
+    --vp-mark-linear-color: #39ff14;
+  }
+
+  mark.warning {
+    --vp-mark-linear-color: #fc0;
+  }
+
+  mark.caution, mark.danger {
+    --vp-mark-linear-color: #f99;
+  }
+
+  mark.important {
+    --vp-mark-linear-color: #ccf;
+  }
+
+  /** 深色模式 */
+  [data-theme="dark"] {
+    /*
+    --vp-c-brand-1: #8cccd5;
+    --vp-c-brand-2: #6aa1b7;
+    --vp-c-brand-3: #5086a1;
+    --vp-c-brand-soft: rgba(131, 208, 218, 0.314);
+    */
+
+    /*
+    --vp-c-bg: #1b1b1f;
+    --vp-c-bg-alt: #161618;
+    --vp-c-bg-elv: #202127;
+    --vp-c-bg-soft: #202127;
+    */
+
+    /*
+    --vp-c-text-1: rgba(255, 255, 245, 0.86);
+    --vp-c-text-2: rgba(235, 235, 245, 0.6);
+    --vp-c-text-3: rgba(235, 235, 245, 0.38);
+    */
+  }
+
+  [data-theme="dark"] mark.note {
+    --vp-mark-linear-color: #660;
+  }
+
+  [data-theme="dark"] mark.tip {
+    --vp-mark-linear-color: #063;
+  }
+
+  [data-theme="dark"] mark.warning {
+    --vp-mark-linear-color: #c60;
+  }
+
+  [data-theme="dark"] mark.caution,
+  [data-theme="dark"] mark.danger {
+    --vp-mark-linear-color: #c66;
+  }
+
+  [data-theme="dark"] mark.important {
+    --vp-mark-linear-color: #66c;
+  }
 }
