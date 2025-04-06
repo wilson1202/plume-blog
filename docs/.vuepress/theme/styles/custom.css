@@ -58,3 +58,7 @@ mark {
   border-radius: 2px; 
 }
 
+.vp-doc blockquote::before {
+  /* 移除默认引号图案 */
+  content: none;
+}
