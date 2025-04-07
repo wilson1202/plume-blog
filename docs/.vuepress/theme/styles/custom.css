@@ -50,7 +50,8 @@
   */
 }
 
-/** 马克笔样式 */
+
+/** ----------自定义马克笔样式----------- */
 mark {
   /* 控制背景渐变的位置偏移 */
   --vp-mark-bg-shift: 0.0lh;
@@ -58,7 +59,37 @@ mark {
   border-radius: 2px; 
 }
 
-.vp-doc blockquote::before {
-  /* 移除默认引号图案 */
-  content: none;
+
+/* ------------自定义引用格式------------ */
+.vp-doc blockquote {
+  position: relative;
+  padding: 12px 20px 12px 16px; /* 16px左侧留出竖线空间 */
+  margin: 16px auto;
+  border-radius: 8px;
+  background-color: var(--vp-c-default-soft);
+  overflow: hidden; /* 关键：确保伪元素不会溢出圆角区域 */
 }
+
+.vp-doc blockquote::before {
+  position: absolute;
+  top: -1px; /* 微调对齐顶部边缘 */
+  left: -1px; /* 微调对齐左侧边缘 */
+  bottom: -1px; /* 微调对齐底部边缘 */
+  width: 4px;
+  background: #00B1E1; /* 简化为纯色 */
+  content: '';
+  border-radius: 8px 0 0 8px; /* 只设置左侧圆角 */
+}
+
+.vp-doc blockquote:hover::before {
+  background: #0085B1;
+}
+
+/* 移动端适配 */
+@media (max-width: 640px) {
+  .vp-doc blockquote {
+    margin: 12px 0;
+    padding: 8px 12px 8px 14px;
+  }
+}
+
