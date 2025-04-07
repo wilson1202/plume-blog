@@ -3,15 +3,15 @@ title: Unblock Netease Music
 createTime: 2025/03/16 18:32:05
 permalink: /article/s7clk3u3/
 tags:
-  - docker
   - music
+  - docker
   - compose
   - unraid
 ---
 
 ## Unblock Netease Music
 
-### Compose 配置
+## Compose 配置
 
 ```yaml
 version: '3.9'
@@ -37,7 +37,13 @@ services:
         container_name: unblock-netease-music
 ```
 
-### Unraid 配置
+> [!note]
+>
+> `ln -sf /app/logs/app.log /app/app.log`
+>
+> 创建一个从 `/app/logs/app.log` 到 `/app/app.log` 的符号链接，自定义日志位置的操作。
+
+## Unraid 配置
 
 | 项目              | 参数                                                         | 备注             |
 | ----------------- | ------------------------------------------------------------ | ---------------- |
@@ -63,8 +69,11 @@ services:
 | 端口              | 容器端口：`8080`；主机端口：`18080`；连接类型：`TCP`         | 映射端口         |
 | 路径              | 容器路径：`/app/logs`；主机路径：`/mnt/user/appdata/unblock-netease-music/logs` | 日志路径         |
 
-> [!note]
->
-> `ln -sf /app/logs/app.log /app/app.log`
->
-> 创建一个从 `/app/logs/app.log` 到 `/app/app.log` 的符号链接，自定义日志位置的操作。
+::: important 确保『日志路径』目录存在并有正确权限
+
+```bash
+mkdir -p /mnt/user/appdata/unblock-netease-music/logs
+chmod 777 /mnt/user/appdata/unblock-netease-music/logs
+```
+
+:::
