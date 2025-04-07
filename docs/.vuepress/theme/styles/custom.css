@@ -62,23 +62,21 @@ mark {
 
 /* ------------ 自定义引用格式（调整间距） ------------ */
 .vp-doc blockquote {
-  position: relative;
   padding: 4px 16px 4px 20px; /* 原 16px → 20px（增加 4px） */
   margin: 4px auto;
   border-radius: 6px;
-  background-color: var(--vp-c-default-soft);
   overflow: hidden;
 }
 
 .vp-doc blockquote::before {
-  position: absolute;
   top: -1px;
   left: -1px; /* 竖条紧贴左侧边缘 */
   bottom: -1px;
   width: 4px;
-  background: #2a90a0;
+  background: #0079e1;
   content: '';
   border-radius: 6px 0 0 6px;
+  opacity: 0.6 ; /* 覆盖原始透明度 */
 }
 
 /* 移动端适配 */
