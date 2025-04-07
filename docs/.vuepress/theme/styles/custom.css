@@ -76,13 +76,9 @@ mark {
   left: -1px; /* 微调对齐左侧边缘 */
   bottom: -1px; /* 微调对齐底部边缘 */
   width: 4px;
-  background: #00B1E1; /* 简化为纯色 */
+  background: #2a90a0; /* 简化为纯色 */
   content: '';
   border-radius: 8px 0 0 8px; /* 只设置左侧圆角 */
-}
-
-.vp-doc blockquote:hover::before {
-  background: #0085B1;
 }
 
 /* 移动端适配 */
