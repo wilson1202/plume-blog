@@ -162,7 +162,7 @@ export default defineUserConfig({
      * 资源链接替换
      * @see https://theme-plume.vuejs.press/guide/features/replace-assets/
      */
-    // replaceAssets: 'https://cdn.example.com',
+    replaceAssets: 'https://assets.hnr1.xyz',
 
     /**
      * 加密功能
