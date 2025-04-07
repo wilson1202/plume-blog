@@ -60,32 +60,35 @@ mark {
 }
 
 
-/* ------------自定义引用格式------------ */
+/* ------------ 自定义引用格式（调整间距） ------------ */
 .vp-doc blockquote {
   position: relative;
-  padding: 12px 20px 12px 16px; /* 16px左侧留出竖线空间 */
-  margin: 16px auto;
-  border-radius: 8px;
+  padding: 4px 16px 4px 20px; /* 原 16px → 20px（增加 4px） */
+  margin: 4px auto;
+  border-radius: 6px;
   background-color: var(--vp-c-default-soft);
-  overflow: hidden; /* 关键：确保伪元素不会溢出圆角区域 */
+  overflow: hidden;
 }
 
 .vp-doc blockquote::before {
   position: absolute;
-  top: -1px; /* 微调对齐顶部边缘 */
-  left: -1px; /* 微调对齐左侧边缘 */
-  bottom: -1px; /* 微调对齐底部边缘 */
+  top: -1px;
+  left: -1px; /* 竖条紧贴左侧边缘 */
+  bottom: -1px;
   width: 4px;
-  background: #2a90a0; /* 简化为纯色 */
+  background: #2a90a0;
   content: '';
-  border-radius: 8px 0 0 8px; /* 只设置左侧圆角 */
+  border-radius: 6px 0 0 6px;
 }
 
 /* 移动端适配 */
 @media (max-width: 640px) {
   .vp-doc blockquote {
-    margin: 12px 0;
-    padding: 8px 12px 8px 14px;
+    margin: 3px 0;
+    padding: 3px 12px 3px 18px; /* 原 14px → 18px（增加 4px） */
+    border-radius: 4px;
+  }
+  .vp-doc blockquote::before {
+    border-radius: 4px 0 0 4px;
   }
 }
-
