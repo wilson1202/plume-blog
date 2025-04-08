@@ -6,8 +6,9 @@ permalink: /article/kirgdq6u/
 
 
 
-
 ## 折腾的硬件
+
+![image-20250407175923435](/images/n-zjkj-cg-1-9.test/image-20250407175923435.png)
 
 ````markmap
 ---
@@ -119,3 +120,6 @@ title What Voldemort doesn't have?
   "FAMILY" : 3
   "NOSE" : 45
 ```
+
+==vuepress-theme-plume== 是一个基于 ==VuePress 的主题==，无论您是想写 **生活类博客**、**技术类博客**、 或者是 **产品文档**、**知识库**、**系列文档** 等，主题都可以满足您的需求。
+

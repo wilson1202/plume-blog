@@ -21,7 +21,7 @@ export default defineThemeConfig({
    * 文章版权信息
    * @see https://theme-plume.vuejs.press/guide/features/copyright/
    */
-  copyright: true,
+  copyright: 'CC-BY-NC-SA-4.0',
 
   // prevPage: true,   // 是否启用上一页链接
   // nextPage: true,   // 是否启用下一页链接
@@ -40,6 +40,7 @@ export default defineThemeConfig({
     avatar: 'https://theme-plume.vuejs.press/plume.png',
     name: '岐山行',
     description: '坚持，穿过泥泞',
+    layout: 'right', // 个人信息在左侧还是右侧，'left' | 'right'
     // circle: true,
     // location: '',
     // organization: '',
