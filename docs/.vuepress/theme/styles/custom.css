@@ -99,11 +99,11 @@ mark {
 
 
 /* ----------------Mermaid 图表样式调整----------------- */
-.mermaid-wrapper svg {
+/* .mermaid-wrapper svg { */
   /* 图片平铺 */
-  width: 100%; 
-  height: auto;
-}
+  /* width: 100%;  */
+  /* height: auto; */
+/* } */
 
 
 
