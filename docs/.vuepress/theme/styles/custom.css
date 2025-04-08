@@ -60,6 +60,12 @@ mark {
 }
 
 
+/* -------------隐藏图片名称-------------- */
+.vp-doc figure figcaption {
+  display: none;
+}
+
+
 /* ------------ 自定义引用格式（调整间距） ------------ */
 .vp-doc blockquote {
   padding: 4px 16px 4px 20px; /* 原 16px → 20px（增加 4px） */
@@ -90,3 +96,14 @@ mark {
     border-radius: 4px 0 0 4px;
   }
 }
+
+
+/* ----------------Mermaid 图表样式调整----------------- */
+.mermaid-wrapper svg {
+  /* 图片平铺 */
+  width: 100%; 
+  height: auto;
+}
+
+
+
