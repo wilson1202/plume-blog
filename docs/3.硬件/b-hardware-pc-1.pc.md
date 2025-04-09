@@ -8,8 +8,6 @@ permalink: /article/kirgdq6u/
 
 ## 折腾的硬件
 
-![image-20250407175923435](/images/n-zjkj-cg-1-9.test/image-20250407175923435.png)
-
 ````markmap
 ---
 markmap:

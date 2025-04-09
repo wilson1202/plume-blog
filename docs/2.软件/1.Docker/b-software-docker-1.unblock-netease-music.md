@@ -11,6 +11,13 @@ tags:
 
 ## Unblock Netease Music
 
+<div style="text-align: center;">
+  <img src="/images/b-software-docker-1.unblock-netease-music/UnblockNeteaseMusic-icon.png" 
+       alt="UnblockNeteaseMusic-icon" 
+       style="height: 200px; width: auto; max-width: 100%; object-fit: contain;">
+</div>
+
+
 ## Compose 配置
 
 ```yaml
