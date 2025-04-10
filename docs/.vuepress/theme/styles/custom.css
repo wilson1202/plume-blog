@@ -51,59 +51,13 @@
 }
 
 
-/** ----------自定义马克笔样式----------- */
-/* mark { */
-  /* 控制背景渐变的位置偏移 0.0lh */
-  /* --vp-mark-bg-shift: 0.55lh; */
-  /* 设置圆角，值可以根据需要调整 */
-  /* border-radius: 1px;  */
-/* } */
-
-
 /* -------------隐藏图片名称-------------- */
 .vp-doc figure figcaption {
   display: none;
 }
 
 
-/* ------------ 自定义引用格式（调整间距） ------------ */
-.vp-doc blockquote {
-  padding: 4px 16px 4px 20px; /* 原 16px → 20px（增加 4px） */
-  margin: 4px auto;
-  border-radius: 6px;
-  overflow: hidden;
-}
 
-.vp-doc blockquote::before {
-  top: -1px;
-  left: -1px; /* 竖条紧贴左侧边缘 */
-  bottom: -1px;
-  width: 4px;
-  background: #0079e1;
-  content: '';
-  border-radius: 6px 0 0 6px;
-  opacity: 0.6 ; /* 覆盖原始透明度 */
-}
-
-/* 移动端适配 */
-@media (max-width: 640px) {
-  .vp-doc blockquote {
-    margin: 3px 0;
-    padding: 3px 12px 3px 18px; /* 原 14px → 18px（增加 4px） */
-    border-radius: 4px;
-  }
-  .vp-doc blockquote::before {
-    border-radius: 4px 0 0 4px;
-  }
-}
-
-
-/* ----------------Mermaid 图表样式调整----------------- */
-/* .mermaid-wrapper svg { */
-  /* 图片平铺 */
-  /* width: 100%;  */
-  /* height: auto; */
-/* } */
 
 
 
