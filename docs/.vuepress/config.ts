@@ -5,8 +5,8 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '岐山行',
-  description: '坚持，穿过泥泞',
+  title: '𝒷𝑒𝓈𝓉 𝓂𝒶𝓃',
+  description: '𝒫𝑒𝓇𝓈𝒾𝓈𝓉, 𝒶𝓃𝒹 𝒸𝓇𝑜𝓈𝓈 𝓉𝒽𝑒 𝒽𝒾𝓁𝓁.',
 
   head: [
     // 配置站点图标

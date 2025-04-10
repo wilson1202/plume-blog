@@ -11,9 +11,9 @@ config:
       light: 0.1
       dark: 0.3
     hero:
-      name: 岐山行
-      tagline: 心中仍有梦，行则将至
-      text: 即使慢，驰而不息，纵会落后，纵会失败，但一定可以达到他所向往的目标。
+      name: 🅷🄸 𝒷𝑒𝓈𝓉 𝓂𝒶𝓃
+      tagline: 心中有梦，行则将至
+      text: 他是要去征服世界的，我为什么要给他枷锁！！！
       actions:
         -
           theme: brand
