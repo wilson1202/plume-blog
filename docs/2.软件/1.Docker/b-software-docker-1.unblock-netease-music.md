@@ -14,13 +14,16 @@ tags:
 <div style="text-align: center;">
   <img src="/images/b-software-docker-1.unblock-netease-music/UnblockNeteaseMusic-icon.png" 
        alt="UnblockNeteaseMusic-icon" 
-       style="height: 200px; width: auto; max-width: 100%; object-fit: contain;">
+       style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
 </div>
 
+> Docker Hub：[https://hub.docker.com/r/pan93412/unblock-netease-music-enhanced](https://hub.docker.com/r/pan93412/unblock-netease-music-enhanced)
+>
+> Github：[https://github.com/UnblockNeteaseMusic/server](https://github.com/UnblockNeteaseMusic/server)
 
 ## Compose 配置
 
-```yaml
+```js
 version: '3.9'
 services:
     unblock-netease-music-enhanced:
@@ -37,18 +40,22 @@ services:
             - ENABLE_LOCAL_VIP=true
             - LOG_FILE=app.log
         ports:
-            - '18080:8080'
+            - '8080:8080'
         volumes:
             - /volume1/docker/unblock-netease/logs:/app/logs:rw
         image: pan93412/unblock-netease-music-enhanced
         container_name: unblock-netease-music
 ```
 
-> [!note]
->
-> `ln -sf /app/logs/app.log /app/app.log`
->
-> 创建一个从 `/app/logs/app.log` 到 `/app/app.log` 的符号链接，自定义日志位置的操作。
+::: info 自定义日志位置
+
+创建一个从 `/app/logs/app.log` 到 `/app/app.log` 的符号链接
+
+```js
+ln -sf /app/logs/app.log /app/app.log
+```
+
+:::
 
 ## Unraid 配置
 
@@ -59,7 +66,7 @@ services:
 | 额外要求          | 空                                                           |                  |
 | 存储库            | `pan93412/unblock-netease-music-enhanced`                    |                  |
 | Registry URL      | [https://hub.docker.com/r/pan93412/unblock-netease-music-enhanced](https://hub.docker.com/r/pan93412/unblock-netease-music-enhanced) |                  |
-| 图标链接          | [https://user-images.githubusercontent.com/26399680/47980314-0e3f1700-e102-11e8-8857-e3436ecc8beb.png](https://user-images.githubusercontent.com/26399680/47980314-0e3f1700-e102-11e8-8857-e3436ecc8beb.png) |                  |
+| 图标链接          | `/mnt/user/Pictures/docker-logos/UnblockNeteaseMusic-icon.png` |                  |
 | WebUI             | 空                                                           |                  |
 | 额外参数          | `--memory=512m --memory-swap=0 --entrypoint /bin/sh`         |                  |
 | 发布参数          | `-c "ln -sf /app/logs/app.log /app/app.log && node app.js -s"` |                  |
