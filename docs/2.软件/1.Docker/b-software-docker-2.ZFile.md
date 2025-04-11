@@ -5,17 +5,17 @@ permalink: /article/vtzi3kg7/
 tags:
   - zfile
   - 网盘
-  - docker
   - compose
   - unraid
 ---
 ## ZFile
 
 <div style="text-align: center;">
-  <img src="/images/b-software-docker-2.ZFile/ZFile-icon.png" 
+  <img src="/images/b-software-docker-2.zfile/ZFile-icon.png" 
        alt="ZFile-icon" 
        style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
 </div>
+
 
 > Docker Hub：[https://hub.docker.com/r/zhaojun1998/zfile](https://hub.docker.com/r/zhaojun1998/zfile)
 >
