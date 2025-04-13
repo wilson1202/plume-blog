@@ -32,9 +32,16 @@ const fdcNote = defineNoteConfig({
   sidebar: 'auto',
 })
 
+// 书单
+const booksNote = defineNoteConfig({
+  dir: '书单',
+  link: '/books',
+  sidebar: 'auto',
+})
+
 
 export const notes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [zjkjNote,ctaNote,cpaNote,fdcNote],
+  notes: [zjkjNote,ctaNote,cpaNote,fdcNote,booksNote],
 })

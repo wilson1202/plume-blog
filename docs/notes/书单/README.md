@@ -1,0 +1,213 @@
+---
+title: 书单
+createTime: 2025/04/13 17:23:40
+permalink: /books/
+---
+## 分类
+
+文学
+
+- 中国小说
+- 外国小说
+- 散文随笔
+- 诗歌戏剧
+- 文学理论
+
+文化
+
+- 历史
+- 哲思
+- 艺术
+
+经管
+
+- 经济
+- 管理
+- 投资
+- 商业
+
+生活
+
+- 亲子教育
+
+科技
+
+- 科普读物
+- 工具书
+
+## 书单
+
+:::: card-masonry
+
+::: card title=""
+<div style="text-align: center;">
+  <a href="https://book.douban.com/subject/26954784/" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+         alt="中华帝国的衰落" 
+         style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+  </a>
+  <div style="font-weight: bold; margin-top: 8px;">
+    《中华帝国的衰落》
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 4px;">
+    <span style="color: #999;">作者:</span> 魏斐德
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 2px;">
+    <span style="color: #999;">出版社:</span> 民主与建设出版社
+  </div>
+  <div style=" font-size: 0.8em; margin: 6px 0; text-align: left;">
+    <span style="color: #1890ff; padding-right: 6px;">中国史</span>
+    <span style="color: #52c41a;">晚清近代史</span>
+  </div>
+  <div style="font-size: 0.75em; color: #7a4b3b; margin-top: 4px; text-align: left;">
+    政治制度 | 社会变迁 | 帝国主义
+  </div>
+</div>
+
+:::
+
+::: card title=""
+<div style="text-align: center;">
+  <a href="https://book.douban.com/subject/26954784/" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+         alt="中华帝国的衰落" 
+         style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+  </a>
+  <div style="font-weight: bold; margin-top: 8px;">
+    《中华帝国的衰落》
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 4px;">
+    <span style="color: #999;">作者:</span> 魏斐德
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 2px;">
+    <span style="color: #999;">出版社:</span> 民主与建设出版社
+  </div>
+  <div style=" font-size: 0.8em; margin: 6px 0; text-align: left;">
+    <span style="color: #1890ff; padding-right: 6px;">历史</span>
+    <span style="color: #52c41a;">中国史</span>
+  </div>
+  <div style="font-size: 0.75em; color: #bfbfbf; margin-top: 4px; text-align: left;">
+    帝国研究三部曲 | 2023TOP10
+  </div>
+</div>
+:::
+
+::: card title=""
+<div style="text-align: center;">
+  <a href="https://book.douban.com/subject/26954784/" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+         alt="中华帝国的衰落" 
+         style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+  </a>
+  <div style="font-weight: bold; margin-top: 8px;">
+    《中华帝国的衰落》
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 4px;">
+    <span style="color: #999;">作者:</span> 魏斐德
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 2px;">
+    <span style="color: #999;">出版社:</span> 民主与建设出版社
+  </div>
+  <div style=" font-size: 0.8em; margin: 6px 0; text-align: left;">
+    <span style="color: #1890ff; padding-right: 6px;">历史</span>
+    <span style="color: #52c41a;">中国史</span>
+  </div>
+  <div style="font-size: 0.75em; color: #bfbfbf; margin-top: 4px; text-align: left;">
+    帝国研究三部曲 | 2023TOP10
+  </div>
+</div>
+
+
+:::
+
+::: card title=""
+<div style="text-align: center;">
+  <a href="https://book.douban.com/subject/26954784/" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+         alt="中华帝国的衰落" 
+         style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+  </a>
+  <div style="font-weight: bold; margin-top: 8px;">
+    《中华帝国的衰落》
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 4px;">
+    <span style="color: #999;">作者:</span> 魏斐德
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 2px;">
+    <span style="color: #999;">出版社:</span> 民主与建设出版社
+  </div>
+  <div style=" font-size: 0.8em; margin: 6px 0; text-align: left;">
+    <span style="color: #1890ff; padding-right: 6px;">历史</span>
+    <span style="color: #52c41a;">中国史</span>
+  </div>
+  <div style="font-size: 0.75em; color: #bfbfbf; margin-top: 4px; text-align: left;">
+    帝国研究三部曲 | 2023TOP10
+  </div>
+</div>
+:::
+
+::: card title=""
+<div style="text-align: center;">
+  <a href="https://book.douban.com/subject/26954784/" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+         alt="中华帝国的衰落" 
+         style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+  </a>
+  <div style="font-weight: bold; margin-top: 8px;">
+    《中华帝国的衰落》
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 4px;">
+    <span style="color: #999;">作者:</span> 魏斐德
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 2px;">
+    <span style="color: #999;">出版社:</span> 民主与建设出版社
+  </div>
+  <div style=" font-size: 0.8em; margin: 6px 0; text-align: left;">
+    <span style="color: #1890ff; padding-right: 6px;">历史</span>
+    <span style="color: #52c41a;">中国史</span>
+  </div>
+  <div style="font-size: 0.75em; color: #bfbfbf; margin-top: 4px; text-align: left;">
+    帝国研究三部曲 | 2023TOP10
+  </div>
+</div>
+:::
+
+::: card title=""
+<div style="text-align: center;">
+  <a href="https://book.douban.com/subject/26954784/" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+         alt="中华帝国的衰落" 
+         style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+  </a>
+  <div style="font-weight: bold; margin-top: 8px;">
+    《中华帝国的衰落》
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 4px;">
+    <span style="color: #999;">作者:</span> 魏斐德
+  </div>
+  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 2px;">
+    <span style="color: #999;">出版社:</span> 民主与建设出版社
+  </div>
+  <div style=" font-size: 0.8em; margin: 6px 0; text-align: left;">
+    <span style="color: #1890ff; padding-right: 6px;">历史</span>
+    <span style="color: #52c41a;">中国史</span>
+  </div>
+  <div style="font-size: 0.75em; color: #bfbfbf; margin-top: 4px; text-align: left;">
+    帝国研究三部曲 | 2023TOP10
+  </div>
+</div>
+:::
+
+::::

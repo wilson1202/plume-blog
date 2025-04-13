@@ -15,11 +15,16 @@ export const navbar = defineNavbarConfig([
       { text: 'CPA', link: '/notes/CPA/' }
     ]
   },
+  // {
+  //   text: '政策',
+  //   icon: 'mingcute:building-4-fill',
+  //   items: [
+  //     { text: '房地产', link: '/notes/房地产/' }
+  //   ]
+  // },
   {
-    text: '政策',
+    text: '书单',
     icon: 'mingcute:building-4-fill',
-    items: [
-      { text: '房地产', link: '/notes/房地产/' }
-    ]
+    link: '/notes/书单/'
   }
 ])

@@ -121,3 +121,130 @@ title What Voldemort doesn't have?
 
 ==vuepress-theme-plume== 是一个基于 ==VuePress 的主题==，无论您是想写 **生活类博客**、**技术类博客**、 或者是 **产品文档**、**知识库**、**系列文档** 等，主题都可以满足您的需求。
 
+:::: card-masonry
+
+::: card title=""
+<div style="text-align: center;">
+  <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+       alt="中华帝国的衰落" 
+       style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+    <div style="font-weight: bold;">
+      <a href="https://book.douban.com/subject/26954784/" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         style="color: inherit; text-decoration: none;">
+        《中华帝国的衰落》
+      </a>
+    </div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">作者: 魏斐德</div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">出版社: 民主与建设出版社</div>
+    <div style="color: #007bff;">在读</div>
+</div>
+
+
+:::
+
+::: card title=""
+
+<div style="text-align: center;">
+  <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+       alt="中华帝国的衰落" 
+       style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+    <div style="font-weight: bold;">
+      <a href="https://book.douban.com/subject/26954784/" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         style="color: inherit; text-decoration: none;">
+        《中华帝国的衰落》
+      </a>
+    </div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">作者: 魏斐德</div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">出版社: 民主与建设出版社</div>
+    <div style="color: #007bff;">在读</div>
+</div>
+
+
+:::
+
+::: card title=""
+<div style="text-align: center;">
+  <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+       alt="中华帝国的衰落" 
+       style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+    <div style="font-weight: bold;">
+      <a href="https://book.douban.com/subject/26954784/" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         style="color: inherit; text-decoration: none;">
+        《中华帝国的衰落》
+      </a>
+    </div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">作者: 魏斐德</div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">出版社: 民主与建设出版社</div>
+    <div style="color: #007bff;">在读</div>
+</div>
+
+:::
+
+::: card title=""
+<div style="text-align: center;">
+  <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+       alt="中华帝国的衰落" 
+       style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+    <div style="font-weight: bold;">
+      <a href="https://book.douban.com/subject/26954784/" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         style="color: inherit; text-decoration: none;">
+        《中华帝国的衰落》
+      </a>
+    </div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">作者: 魏斐德</div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">出版社: 民主与建设出版社</div>
+    <div style="color: #007bff;">在读</div>
+</div>
+
+:::
+
+::: card title=""
+<div style="text-align: center;">
+  <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+       alt="中华帝国的衰落" 
+       style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+    <div style="font-weight: bold;">
+      <a href="https://book.douban.com/subject/26954784/" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         style="color: inherit; text-decoration: none;">
+        《中华帝国的衰落》
+      </a>
+    </div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">作者: 魏斐德</div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">出版社: 民主与建设出版社</div>
+    <div style="color: #007bff;">在读</div>
+</div>
+
+:::
+
+::: card title=""
+<div style="text-align: center;">
+  <img src="https://assets.hnr1.xyz/images/s29398116.jpg" 
+       alt="中华帝国的衰落" 
+       style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
+    <div style="font-weight: bold;">
+      <a href="https://book.douban.com/subject/26954784/" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         style="color: inherit; text-decoration: none;">
+        《中华帝国的衰落》
+      </a>
+    </div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">作者: 魏斐德</div>
+    <div style="color: #666; font-size: 0.9em; text-align: left;">出版社: 民主与建设出版社</div>
+    <div style="color: #007bff;">在读</div>
+</div>
+
+:::
+
+::::
+
