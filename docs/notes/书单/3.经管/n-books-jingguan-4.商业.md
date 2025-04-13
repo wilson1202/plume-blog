@@ -8,7 +8,7 @@ permalink: /books/8ogv3qc7/
 
 ::: card title=""
 <div style="text-align: center;">
-  <a href="https://book.douban.com/subject/26954784/" 
+  <a href="https://book.douban.com/subject/26960573/" 
      target="_blank" 
      rel="noopener noreferrer">
     <img src="/images/n-books-jingguan-4.商业/野蛮生长.jpg" 
@@ -32,7 +32,6 @@ permalink: /books/8ogv3qc7/
     改革开放 | 民营企业 | 商业案例
   </div>
 </div>
-
 
 :::
 
