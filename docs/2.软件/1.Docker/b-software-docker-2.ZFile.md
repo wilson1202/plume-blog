@@ -8,7 +8,7 @@ tags:
   - compose
   - unraid
 ---
-## ZFile
+## 简介
 
 <div style="text-align: center;">
   <img src="/images/b-software-docker-2.zfile/ZFile-icon.png" 
@@ -16,7 +16,8 @@ tags:
        style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
 </div>
 
-
+> ZFile，最方便快捷的在线目录展示程序，支持将本地文件、FTP、SFTP、S3、OneDrive 等存储在网站上展示并浏览.
+>
 > Docker Hub：[https://hub.docker.com/r/zhaojun1998/zfile](https://hub.docker.com/r/zhaojun1998/zfile)
 >
 > Github：[https://github.com/zfile-dev/zfile⁠](https://github.com/zfile-dev/zfile)
@@ -49,9 +50,13 @@ services:
 curl -k -o /volume1/docker/zfile/application.properties https://c.jun6.net/ZFILE/application.properties
 ```
 
-**然后增加一个 `-v` 参数(见上面倒数第二行)，将此源文件映射到容器内（如修改宿主机的 `application.properties` 为其他路径, 则下面命令也要一起修改）, 如:**
+**然后增加一个 `-v` 参数(见上面倒数第二行)，将此源文件映射到容器内（如修改宿主机的 `application.properties` 为其他路径, 则上面命令也要一起修改）**
 
-> 提示: 启动容器后无法修改文件映射，需先 `docker rm -f zfile` 删除容器，再重新运行命令.
+:::
+
+::: warning
+
+启动容器后无法修改文件映射，需先 `docker rm -f zfile` 删除容器，再重新运行命令.
 
 :::
 

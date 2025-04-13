@@ -8,7 +8,7 @@ tags:
   - unraid
 ---
 
-## Unblock Netease Music
+## 简介
 
 <div style="text-align: center;">
   <img src="/images/b-software-docker-1.unblock-netease-music/UnblockNeteaseMusic-icon.png" 
@@ -16,6 +16,8 @@ tags:
        style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
 </div>
 
+> 解锁网易云音乐客户端变灰歌曲
+>
 > Docker Hub：[https://hub.docker.com/r/pan93412/unblock-netease-music-enhanced](https://hub.docker.com/r/pan93412/unblock-netease-music-enhanced)
 >
 > Github：[https://github.com/UnblockNeteaseMusic/server](https://github.com/UnblockNeteaseMusic/server)
