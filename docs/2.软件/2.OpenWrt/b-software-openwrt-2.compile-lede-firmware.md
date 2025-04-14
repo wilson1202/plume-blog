@@ -22,13 +22,13 @@ tags:
 
 ## 编译命令
 
-::: steps 
+:::: steps 
 
 1. 首先装好 Linux 系统，推荐 Debian 或 Ubuntu LTS
 
 2. 安装编译依赖
 
-    ```
+    ```bash
     sudo apt update -y
     sudo apt full-upgrade -y
     sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
@@ -46,29 +46,25 @@ tags:
 
 3. 下载好源代码
 
-    ```
+    ```bash
     git clone https://github.com/coolsnowwolf/lede
     ```
 
 4. 进入 lede 目录（源码存在此目录，所以此目录即为 buildroot 目录）
 
-   ```
+   ```bash
    cd lede
    ```
 
 5. 更新系统组件
 
-    ```
+    ```bash
     ./scripts/feeds update -a
     ./scripts/feeds install -a
     make menuconfig
     ```
 
-    ::: tip 如果已经成功编译过，再次编译时还要同步 L 大的代码
-
-    ```
-    git pull
-    ```
+    ::: tip 如果已经成功编译过，再次编译时还要 `git pull` 同步 L 大的代码
 
     :::
 
@@ -76,27 +72,27 @@ tags:
 
 7. 下载源码文件到 `buildroot` 录下的 `dl` 目录
 
-    ```
+    ```bash
     make download -j8
     ```
 
 8. `WSL` 编译前可尝试运行以下代码
 
-    ```
+    ```bash
     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
     ```
 
 9. 正式开始编译，建议先运行 `screen` 命令守护进程，尤其是在 `VPS` 上编译时（ `-j` 后面是线程数，第一次编译推荐用单线程）
 
-    ```
+    ```bash
     make V=s -j1
     ```
 
-:::
+::::
 
 ## 二次编译
 
-```
+```bash
 cd lede
 git pull
 ./scripts/feeds update -a && ./scripts/feeds install -a
@@ -109,7 +105,7 @@ make V=s -j$(nproc)
 
 ## 重新配置
 
-```
+```bash
 rm -rf ./tmp && rm -rf .config
 make menuconfig
 make download 
@@ -120,7 +116,8 @@ make V=s -j$(nproc)
 
 ## 生成 seed.config 文件
 
-```
+```bash
 make defconfig
 ./scripts/diffconfig.sh > seed.config
 ```
+
