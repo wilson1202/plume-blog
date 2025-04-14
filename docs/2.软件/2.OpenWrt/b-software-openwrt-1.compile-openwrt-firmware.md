@@ -1,5 +1,5 @@
 ---
-title: 使用 OpenWrt 官网源码编译固件
+title: 使用 OpenWrt 官方源码编译固件
 createTime: 2025/03/18 20:35:59
 permalink: /article/xlaaoaqr/
 tags:
@@ -9,8 +9,9 @@ tags:
 
 ## 官方地址
 
-- 源码：https://github.com/openwrt/openwrt
-- 固件：[https://downloads.openwrt.org](https://downloads.openwrt.org/)
+> 源码：[https://github.com/openwrt/openwrt](https://github.com/openwrt/openwrt)
+>
+> 固件：[https://downloads.openwrt.org](https://downloads.openwrt.org/)
 
 ## 准备工作
 
