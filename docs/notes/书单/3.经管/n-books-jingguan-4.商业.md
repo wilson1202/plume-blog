@@ -18,8 +18,8 @@ permalink: /books/8ogv3qc7/
   <div style="font-weight: bold; margin-top: 8px;">
     《野蛮生长》
   </div>
-  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 4px;">
-    <span style="color: #999;">作者:</span> 冯仑
+  <div style="font-size: 0.85em; text-align: left; margin-top: 4px;">
+    作者: 冯仑
   </div>
   <div style=" font-size: 0.8em; margin: 6px 0; text-align: left;">
     <span style="color: #1890ff; padding-right: 6px;">中国企业史</span>
@@ -32,6 +32,8 @@ permalink: /books/8ogv3qc7/
 
 
 :::
+
+
 
 ::::
 
