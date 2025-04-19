@@ -21,9 +21,6 @@ permalink: /books/8ogv3qc7/
   <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 4px;">
     <span style="color: #999;">作者:</span> 冯仑
   </div>
-  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 2px;">
-    <span style="color: #999;">出版社:</span> 中信出版社
-  </div>
   <div style=" font-size: 0.8em; margin: 6px 0; text-align: left;">
     <span style="color: #1890ff; padding-right: 6px;">中国企业史</span>
     <span style="color: #52c41a;">商战史</span>
@@ -32,6 +29,7 @@ permalink: /books/8ogv3qc7/
     改革开放 | 民营企业 | 商业案例
   </div>
 </div>
+
 
 :::
 

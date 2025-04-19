@@ -20,9 +20,6 @@ permalink: /books/k7rij7jo/
   <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 4px;">
     <span style="color: #999;">作者:</span> 魏斐德
   </div>
-  <div style="color: #666; font-size: 0.85em; text-align: left; margin-top: 2px;">
-    <span style="color: #999;">出版社:</span> 民主与建设出版社
-  </div>
   <div style=" font-size: 0.8em; margin: 6px 0; text-align: left;">
     <span style="color: #1890ff; padding-right: 6px;">中国史</span>
     <span style="color: #52c41a;">晚清近代史</span>
@@ -31,6 +28,7 @@ permalink: /books/k7rij7jo/
     政治制度 | 社会变迁 | 帝国主义
   </div>
 </div>
+
 :::
 
 ::::
