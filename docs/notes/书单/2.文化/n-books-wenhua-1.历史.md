@@ -3,7 +3,7 @@ title: 历史
 createTime: 2025/04/13 17:15:05
 permalink: /books/k7rij7jo/
 ---
-:::: card-masonry cols="3"
+:::: card-masonry
 
 ::: card title=""
 <div style="text-align: center;">
