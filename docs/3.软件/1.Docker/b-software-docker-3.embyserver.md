@@ -79,7 +79,6 @@ card0 renderD128 // [!code warning]
 | 概述              | 空                                                           |            |
 | 额外要求          | 空                                                           |            |
 | 存储库            | `emby/embyserver`                                            |            |
-| Registry URL      | https://registry.hub.docker.com/r/emby/embyserver/           |            |
 | 图标链接          | `/mnt/user/Pictures/docker-logos/EmbyServer-icon.png`        |            |
 | WebUI             | `http://[IP]:[PORT:8096]/`                                   |            |
 | 额外参数          | 空                                                           |            |
@@ -89,9 +88,9 @@ card0 renderD128 // [!code warning]
 | Use Tailscale     | 关                                                           |            |
 | 控制台 shell 命令 | `Shell`                                                      |            |
 | 特权              | 关                                                           |            |
-| 端口              | 容器端口：`8096`；主机端口：`8096`；连接类型：`TCP`          | 映射端口   |
-| 路径              | 容器路径：`/mnt/Downloads/`；主机路径：`/mnt/user/Downloads/` | 下载路径   |
-| 路径              | 容器路径：`/mnt/Videos/`；主机路径：`/mnt/user/Videos/`      | 媒体库路径 |
+| 端口              | 容器端口：`8096`<br />主机端口：`8096`<br />连接类型：`TCP`  | 映射端口   |
+| 路径              | 容器路径：`/mnt/Downloads/`<br />主机路径：`/mnt/user/Downloads/` | 下载路径   |
+| 路径              | 容器路径：`/mnt/Videos/`<br />主机路径：`/mnt/user/Videos/`  | 媒体库路径 |
 | 变量              | 键：`UID`；值：`1000`                                        | UID        |
 | 变量              | 键：`GID`；值：`100`                                         | GID        |
 | 变量              | 键：`GIDLIST`；值：`100`                                     | GIDLIST    |

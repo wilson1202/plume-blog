@@ -66,7 +66,6 @@ ln -sf /app/logs/app.log /app/app.log
 | 概述              | 空                                                           |                  |
 | 额外要求          | 空                                                           |                  |
 | 存储库            | `pan93412/unblock-netease-music-enhanced`                    |                  |
-| Registry URL      | [https://hub.docker.com/r/pan93412/unblock-netease-music-enhanced](https://hub.docker.com/r/pan93412/unblock-netease-music-enhanced) |                  |
 | 图标链接          | `/mnt/user/Pictures/docker-logos/UnblockNeteaseMusic-icon.png` |                  |
 | WebUI             | 空                                                           |                  |
 | 额外参数          | `--memory=512m --memory-swap=0 --entrypoint /bin/sh`         |                  |
@@ -81,8 +80,8 @@ ln -sf /app/logs/app.log /app/app.log
 | 变量              | 键：`ENABLE_FLAC`；值：`true`                                | 激活无损音质     |
 | 变量              | 键：`NO_CACHE`；值：`true`                                   | 停用缓存         |
 | 变量              | 键：`ENABLE_LOCAL_VIP`；值：`svip`                           | 激活本地黑胶会员 |
-| 端口              | 容器端口：`8080`；主机端口：`18080`；连接类型：`TCP`         | 映射端口         |
-| 路径              | 容器路径：`/app/logs`；主机路径：`/mnt/user/appdata/unblock-netease-music/logs` | 日志路径         |
+| 端口              | 容器端口：`8080`<br />主机端口：`18080`<br />连接类型：`TCP` | 映射端口         |
+| 路径              | 容器路径：`/app/logs`<br />主机路径：`/mnt/user/appdata/unblock-netease-music/logs` | 日志路径         |
 
 ::: important 确保『日志路径』目录存在并有正确权限
 

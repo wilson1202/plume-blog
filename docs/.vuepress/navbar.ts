@@ -26,5 +26,10 @@ export const navbar = defineNavbarConfig([
     text: '书单',
     icon: 'mingcute:building-4-fill',
     link: '/notes/书单/'
+  },
+  {
+    text: '豆瓣',
+    icon: 'mingcute:building-4-fill',
+    link: '/notes/豆瓣/'
   }
 ])
