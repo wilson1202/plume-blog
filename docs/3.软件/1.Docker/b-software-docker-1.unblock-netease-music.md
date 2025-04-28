@@ -41,11 +41,12 @@ services:
             - ENABLE_LOCAL_VIP=true
             - LOG_FILE=app.log
         ports:
-            - '8080:8080'
+            - '18080:8080'
         volumes:
-            - /volume1/docker/unblock-netease/logs:/app/logs:rw
+            - /docker/unblock-netease/logs:/app/logs:rw
         image: pan93412/unblock-netease-music-enhanced
         container_name: unblock-netease-music
+        mem_limit: 256m
 ```
 
 ::: info 自定义日志位置
@@ -68,7 +69,7 @@ ln -sf /app/logs/app.log /app/app.log
 | 存储库            | `pan93412/unblock-netease-music-enhanced`                    |                  |
 | 图标链接          | `/mnt/user/Pictures/docker-logos/UnblockNeteaseMusic-icon.png` |                  |
 | WebUI             | 空                                                           |                  |
-| 额外参数          | `--memory=512m --memory-swap=0 --entrypoint /bin/sh`         |                  |
+| 额外参数          | `--memory=256m --memory-swap=0 --entrypoint /bin/sh`         |                  |
 | 发布参数          | `-c "ln -sf /app/logs/app.log /app/app.log && node app.js -s"` |                  |
 | CPU 绑定          | 自定义                                                       |                  |
 | 网络类型          | `Bridge`                                                     |                  |
