@@ -9,7 +9,7 @@ tags:
 copyright:
   creation: runoob.com
   license: CC-BY-4.0
-  source: https://www.runoob.com/docker.../debian-docker-install.html
+  source: https://www.runoob.com/docker/debian-docker-install.html
   author:
     name: runoob.com
     url: https://www.runoob.com/
@@ -124,7 +124,7 @@ sudo docker --version
 sudo docker run hello-world
 ```
 
-### 卸载 docker
+## 卸载 docker
 
 删除安装包：
 
