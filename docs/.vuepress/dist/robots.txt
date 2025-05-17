@@ -1,4 +1,3 @@
 Sitemap: https://blog.hnr1.xyz/sitemap.xml
-
 User-agent:*
 Disallow:
