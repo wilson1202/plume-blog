@@ -1,16 +1,48 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { pwaPlugin } from '@vuepress/plugin-pwa'
+const siteTitle = '𝒷𝑒𝓈𝓉 𝓂𝒶𝓃'
+const siteDescription = '𝒫𝑒𝓇𝓈𝒾𝓈𝓉, 𝒶𝓃𝒹 𝒸𝓇𝑜𝓈𝓈 𝓉𝒽𝑒 𝒽𝒾𝓁𝓁.'
+const siteLang = 'zh-CN'
 
 export default defineUserConfig({
   base: '/',
-  lang: 'zh-CN',
-  title: '𝒷𝑒𝓈𝓉 𝓂𝒶𝓃',
-  description: '𝒫𝑒𝓇𝓈𝒾𝓈𝓉, 𝒶𝓃𝒹 𝒸𝓇𝑜𝓈𝓈 𝓉𝒽𝑒 𝒽𝒾𝓁𝓁.',
+  lang: siteLang,
+  title: siteTitle,
+  description: siteDescription,
+
+  plugins: [
+    pwaPlugin({
+        // pwa 插件
+
+        showInstall: true,
+        manifest: {
+            name: siteTitle, 
+            short_name: siteTitle,
+            description: siteDescription,
+            lang: siteLang,
+            background_color: '#ffffff',
+            theme_color: '#6aa1b7',
+            orientation: 'portrait-primary',
+            start_url: '/',
+            display: 'fullscreen',
+            icons:[
+                {
+                    src: 'favicons/favicon-32x32.png',
+                    type: 'image/png',
+                    sizes: '200x200'
+                }
+            ],
+        },
+        update: 'hint',
+        favicon: 'favicons/favicon-32x32.png',
+    }),
+  ],
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'favicons/favicon-32x32.png' }],
   ],
 
   bundler: viteBundler(),
