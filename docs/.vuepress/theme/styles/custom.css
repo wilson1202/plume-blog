@@ -62,37 +62,25 @@
 
 
 /* -------------PWA 模式状态栏优化-------------- */
-/* 让页面适配安全区域（如 iOS 刘海 / 安卓状态栏） */
-html {
-  padding-top: env(safe-area-inset-top);
-}
-
-/* 导航栏修正，避免被状态栏遮挡 */
-.navbar {
-  padding-top: env(safe-area-inset-top);
-  /* 确保状态栏下有背景 */
-  background-color: var(--c-bg);
-  /* 保证在最上层 */
-  z-index: 1000;
-  /* 可选阴影提升感知 */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-
-/* 搜索框也向下挪一些，避免被遮挡 */
-.search-box {
-  padding-top: env(safe-area-inset-top);
-  background-color: var(--c-bg);
-  z-index: 1000;
-}
-
-/* 如果你有 fixed 的菜单按钮，也应加上这个 */
-.sidebar,
-.toggle-navbar {
-  padding-top: env(safe-area-inset-top);
-}
-
-/* 可选：为整个页面提供内边距（仅当你顶部内容会被遮挡时） */
+/* 适配 iOS 安全区域（防止状态栏遮挡） */
 body {
+  box-sizing: border-box;
   padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
+
+.vp-nav.fixed {
+  position: fixed;
+  top: var(--vp-safe-area-top);
+  box-sizing: content-box;
+}
+
+
+
+
+
+
+
 
