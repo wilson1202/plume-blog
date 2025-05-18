@@ -2,9 +2,14 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
+
 const siteTitle = '𝒷𝑒𝓈𝓉 𝓂𝒶𝓃'
 const siteDescription = '𝒫𝑒𝓇𝓈𝒾𝓈𝓉, 𝒶𝓃𝒹 𝒸𝓇𝑜𝓈𝓈 𝓉𝒽𝑒 𝒽𝒾𝓁𝓁.'
 const siteLang = 'zh-CN'
+
+// 定义主题颜色
+const lightThemeColor = '#fcfcfc' // 明亮模式颜色
+const darkThemeColor = '#1a1a1a'  // 暗黑模式颜色
 
 export default defineUserConfig({
   base: '/',
@@ -14,35 +19,46 @@ export default defineUserConfig({
 
   plugins: [
     pwaPlugin({
-        // pwa 插件
-        showInstall: true,
-        manifest: {
-            name: siteTitle, 
-            short_name: siteTitle,
-            description: siteDescription,
-            lang: siteLang,
-            background_color: '#ffffff',
-            theme_color: '#6aa1b7',
-            orientation: 'portrait-primary',
-            start_url: '/',
-            display: 'fullscreen',
-            icons:[
-                {
-                    src: 'favicons/android-chrome-512x512.png',
-                    type: 'image/png',
-                    sizes: '200x200'
-                }
-            ],
-        },
-        update: 'hint',
-        favicon: 'favicons/android-chrome-512x512.png',  //favicons/favicon-32x32.png
+      showInstall: true,
+      manifest: {
+        name: siteTitle,
+        short_name: siteTitle,
+        description: siteDescription,
+        lang: siteLang,
+        background_color: '#ffffff',
+        theme_color: darkThemeColor, // 默认使用明亮模式颜色
+        orientation: 'portrait-primary',
+        start_url: '/',
+        display: 'standalone', // 改为 standalone 以获得更好的 PWA 体验
+        icons: [
+          {
+            src: 'favicons/android-chrome-512x512.png',
+            type: 'image/png',
+            sizes: '512x512'
+          },
+          {
+            src: 'favicons/android-chrome-192x192.png',
+            type: 'image/png',
+            sizes: '192x192'
+          }
+        ],
+      },
+      update: 'hint',
+      favicon: 'favicons/favicon.ico',
     }),
   ],
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'favicons/android-chrome-512x512.png' }],
-    ['meta', { name: 'theme-color', content: '#6aa1b7' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'favicons/favicon-32x32.png' }],
+    // 添加响应式的 theme-color meta 标签
+    ['meta', { name: 'theme-color', content: lightThemeColor, media: '(prefers-color-scheme: light)' }],
+    ['meta', { name: 'theme-color', content: darkThemeColor, media: '(prefers-color-scheme: dark)' }],
+    // 兼容性 meta 标签
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
+    ['link', { rel: 'apple-touch-icon', href: 'favicons/apple-touch-icon.png' }],
+    ['link', { rel: 'mask-icon', href: 'favicons/safari-pinned-tab.svg', color: lightThemeColor }],
   ],
 
   bundler: viteBundler(),
