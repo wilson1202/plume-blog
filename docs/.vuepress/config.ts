@@ -55,6 +55,7 @@ export default defineUserConfig({
     ['meta', { name: 'theme-color', content: lightThemeColor, media: '(prefers-color-scheme: light)' }],
     ['meta', { name: 'theme-color', content: darkThemeColor, media: '(prefers-color-scheme: dark)' }],
     // 兼容性 meta 标签
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
     ['link', { rel: 'apple-touch-icon', href: 'favicons/apple-touch-icon.png' }],
