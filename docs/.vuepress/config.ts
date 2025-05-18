@@ -42,6 +42,7 @@ export default defineUserConfig({
   head: [
     // 配置站点图标
     ['link', { rel: 'icon', type: 'image/png', href: 'favicons/android-chrome-512x512.png' }],
+    ['meta', { name: 'theme-color', content: '#6aa1b7' }],
   ],
 
   bundler: viteBundler(),
