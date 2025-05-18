@@ -15,7 +15,6 @@ export default defineUserConfig({
   plugins: [
     pwaPlugin({
         // pwa 插件
-
         showInstall: true,
         manifest: {
             name: siteTitle, 
@@ -29,20 +28,20 @@ export default defineUserConfig({
             display: 'fullscreen',
             icons:[
                 {
-                    src: 'favicons/favicon-32x32.png',
+                    src: 'favicons/android-chrome-512x512.png',
                     type: 'image/png',
                     sizes: '200x200'
                 }
             ],
         },
         update: 'hint',
-        favicon: 'favicons/favicon-32x32.png',
+        favicon: 'favicons/android-chrome-512x512.png',  //favicons/favicon-32x32.png
     }),
   ],
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'favicons/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'favicons/android-chrome-512x512.png' }],
   ],
 
   bundler: viteBundler(),
