@@ -59,7 +59,6 @@
 
 
 /* -------------调整 h2 间距-------------- */
-/* -------------调整 h2 间距-------------- */
 
 
 /* -------------PWA 模式状态栏优化-------------- */
@@ -79,10 +78,10 @@ body {
 }
 
 /* -------------临时解决代码块标题格式错行-------------- */
-.code-block-title .code-block-title-bar .title .vp-icon {
+/* .code-block-title .code-block-title-bar .title .vp-icon {
     display: inline-block;
     vertical-align: middle;
-}
+} */
 
 
 
