@@ -8,7 +8,9 @@ tags:
 ---
 ## ESXi 镜像下载
 
-下载相关操作指引，详见官网：[VMware vSphere downloads, VMware Converter, OEM custom images, patches and addons in the Broadcom Support Portal](https://knowledge.broadcom.com/external/article/366685)
+下载相关操作指引，详见官网：
+
+[VMware vSphere downloads, VMware Converter, OEM custom images, patches and addons](https://knowledge.broadcom.com/external/article/366685){.read-more}
 
 ::: info 目前博通在 **ESXi 8.0 Update 3e** 中提供了免费版，下载链接：[8.0U3e](https://support.broadcom.com/group/ecx/productfiles?subFamily=VMware%20vSphere%20Hypervisor&displayGroup=VMware%20vSphere%20Hypervisor&release=8.0U3e&os=&servicePk=&language=EN&freeDownloads=true)（登录后勾选使用协议下载）
 

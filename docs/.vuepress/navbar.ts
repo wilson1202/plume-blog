@@ -15,6 +15,7 @@ export const navbar = defineNavbarConfig([
       { text: 'CPA', link: '/notes/CPA/' }
     ]
   },
+
   // {
   //   text: '政策',
   //   icon: 'mingcute:building-4-fill',
@@ -22,14 +23,15 @@ export const navbar = defineNavbarConfig([
   //     { text: '房地产', link: '/notes/房地产/' }
   //   ]
   // },
-  {
-    text: '书单',
-    icon: 'mingcute:building-4-fill',
-    link: '/notes/书单/'
-  },
+
   {
     text: '豆瓣',
     icon: 'mingcute:building-4-fill',
-    link: '/notes/豆瓣/'
+    items: [
+      { text: '读书', link: '/notes/豆瓣/1.book.md' },
+      { text: '电影', link: '/notes/豆瓣/2.movie.md' },
+      { text: '音乐', link: '/notes/豆瓣/3.song.md' },
+      { text: '游戏', link: '/notes/豆瓣/4.game.md' }
+    ]
   }
 ])
