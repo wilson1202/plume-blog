@@ -6,7 +6,7 @@ import { defineClientConfig } from 'vuepress/client'
 
 // import CustomComponent from './theme/components/Custom.vue'
 
-import Douban from './theme/components/Douban.vue'
+import idouban from './theme/components/idouban.vue'
 
 import './theme/styles/custom.css'
 
@@ -19,6 +19,6 @@ export default defineClientConfig({
     // app.component('Swiper', Swiper) // you should install `swiper`
 
     // your custom components
-    app.component('Douban', Douban)
+    app.component('idouban', idouban)
   },
 })
