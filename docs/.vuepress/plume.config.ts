@@ -38,8 +38,8 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: 'avatar.png',
-    name: '𝒷𝑒𝓈𝓉 𝓂𝒶𝓃',
-    description: '𝒫𝑒𝓇𝓈𝒾𝓈𝓉, 𝒶𝓃𝒹 𝒸𝓇𝑜𝓈𝓈 𝓉𝒽𝑒 𝒽𝒾𝓁𝓁.',
+    name: 'Powersen',
+    description: '保持热爱，奔赴山海',
     layout: 'right', // 个人信息在左侧还是右侧，'left' | 'right'
     circle: true,
     // location: '',

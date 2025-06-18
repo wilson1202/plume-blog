@@ -14,8 +14,8 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
 
-const siteTitle = '𝒷𝑒𝓈𝓉 𝓂𝒶𝓃'
-const siteDescription = '𝒫𝑒𝓇𝓈𝒾𝓈𝓉, 𝒶𝓃𝒹 𝒸𝓇𝑜𝓈𝓈 𝓉𝒽𝑒 𝒽𝒾𝓁𝓁.'
+const siteTitle = 'Powersen'
+const siteDescription = "This is Powersen's personal blog & notebook."
 const siteLang = 'zh-CN'
 
 // 定义主题颜色
@@ -78,7 +78,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://blog.hnr1.xyz',
+    hostname: 'https://powersen.cn',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -224,7 +224,7 @@ export default defineUserConfig({
      * 资源链接替换
      * @see https://theme-plume.vuejs.press/guide/features/replace-assets/
      */
-    replaceAssets: 'https://assets.hnr1.xyz',
+    // replaceAssets: 'https://assets.hnr1.xyz',
 
     /**
      * 加密功能
