@@ -3,11 +3,17 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "pnpm@10.12.1+sha512.f0dda8580f0ee9481c5c79a1d927b9164f2c478e90992ad268bbb2465a736984391d6333d2c327913578b2804af33474ca554ba29c04a8b13060a717675ae3ac",
+  "packageManager": "pnpm@10.12.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
+  },
   "author": "wilson1202 <ibox_wilson@outlook.com>",
   "license": "MIT",
   "engines": {
-    "node": "^18.20.0 || >=20.0.0"
+    "node": "^20.6.0 || >=22.0.0"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -18,28 +24,26 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.23",
+    "@vuepress/plugin-markdown-chart": "2.0.0-rc.110",
     "@vuepress/plugin-pwa": "2.0.0-rc.110",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.89.2",
     "typescript": "^5.8.3",
     "vue": "^3.5.17",
     "vuepress": "2.0.0-rc.23",
-    "vuepress-theme-plume": "1.0.0-rc.153"
+    "vuepress-theme-plume": "1.0.0-rc.154"
   },
   "dependencies": {
-    "@vuepress/plugin-markdown-include": "2.0.0-rc.108",
     "artplayer": "^5.2.3",
     "chart.js": "^4.5.0",
     "dashjs": "^5.0.3",
     "echarts": "^5.6.0",
     "flowchart.ts": "^3.0.1",
     "hls.js": "^1.6.5",
-    "less": "^4.3.0",
     "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",
     "mermaid": "^11.6.0",
-    "mpegts.js": "^1.8.0",
-    "sass": "^1.89.2"
+    "mpegts.js": "^1.8.0"
   }
 }

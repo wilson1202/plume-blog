@@ -161,6 +161,7 @@ export default defineUserConfig({
       annotation: true,   // 启用 annotation 语法  [+label]: content
       pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
       caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
+      fileTree: true,     // 启用 fileTree 语法 :::file-tree  文件树容器
       plot: true,         // 启用隐秘文本语法 !!xxxx!!
       bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
       youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
@@ -176,12 +177,12 @@ export default defineUserConfig({
       jsfiddle: true,     // 启用嵌入 jsfiddle 语法 @[jsfiddle](user/id)
       npmTo: true,        // 启用 npm-to 容器  ::: npm-to
       demo: true,         // 启用 demo 容器  ::: demo
-      repl: {             // 启用 代码演示容器
-        go: true,         // ::: go-repl
-        rust: true,       // ::: rust-repl
-        kotlin: true,     // ::: kotlin-repl
-        // python: true,     // ::: python-repl
-      },
+      // repl: {             // 启用 代码演示容器
+      //   go: true,         // ::: go-repl
+      //   rust: true,       // ::: rust-repl
+      //   kotlin: true,     // ::: kotlin-repl
+      //   // python: true,     // ::: python-repl
+      // },
       math: {             // 启用数学公式
         type: 'katex',
       },
@@ -189,13 +190,13 @@ export default defineUserConfig({
       echarts: true,      // 启用 ECharts
       mermaid: true,      // 启用 mermaid
       flowchart: true,    // 启用 flowchart
-      image: {
-        figure: true,     // 启用 figure
-        lazyload: true,   // 启用图片懒加载
-        mark: true,       // 启用图片标记
-        size: true,       // 启用图片大小
-      },
-      // include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
+      // image: {
+      //   figure: true,     // 启用 figure
+      //   lazyload: true,   // 启用图片懒加载
+      //   mark: true,       // 启用图片标记
+      //   size: true,       // 启用图片大小
+      // },
+      // // include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
       collapse: true,     // 启用折叠面板
       markmap: true,      // 启用思维导图
       imageSize: 'local', // 启用自动填充 图片宽高属性，避免页面抖动
