@@ -26,7 +26,7 @@ export const navbar = defineNavbarConfig([
 
   {
     text: '时光',
-    icon: 'streamline-logos:douban-logo-solid',
+    icon: 'streamline-logos:douban-logo-solid',  
     items: [
       { text: '读书', link: '/notes/豆瓣/1.book.md' },
       { text: '电影', link: '/notes/豆瓣/2.movie.md' },

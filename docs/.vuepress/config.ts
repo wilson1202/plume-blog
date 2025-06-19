@@ -125,19 +125,19 @@ export default defineUserConfig({
     // },
 
     /* 本地搜索, 默认启用 */
-    // search: { provider: 'local' },
+    search: { provider: 'local' },
 
     /**
      * Algolia DocSearch
      * 启用此搜索需要将 本地搜索 search 设置为 false
      * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
      */
-    search: {
-      provider: 'algolia',
-      appId: '8RJSX18NRG',
-      apiKey: 'de298727d7c0642899c49cb308ef1e92',
-      indexName: 'hnr1',
-    },
+    // search: {
+    //   provider: 'algolia',
+    //   appId: '8RJSX18NRG',
+    //   apiKey: '0672dc1cc3ae2237bb6e456fe7c85f9b',
+    //   indexName: 'Powersen.cn',
+    // },
 
     /**
      * Shiki 代码高亮
@@ -166,7 +166,10 @@ export default defineUserConfig({
       youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
       artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
       audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
-      icon: { provider: 'iconify' },        // 启用内置图标语法  ::icon-name::
+      icon: {             // 启用内置图标语法  ::name =24px /#f00::
+        provider: 'iconify', // 图标提供者，支持 iconify、iconfont、fontawesome,
+        // assets: 'https://at.alicdn.com/t/c/font_4954043_01c55ayfadj8.css' // 示例地址
+      },        
       codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)
       replit: true,       // 启用嵌入 replit 语法 @[replit](user/repl-name)
       codeSandbox: true,  // 启用嵌入 codeSandbox 语法 @[codeSandbox](id)

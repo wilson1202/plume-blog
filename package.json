@@ -18,16 +18,16 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.23",
-    "@vuepress/plugin-markdown-include": "2.0.0-rc.108",
-    "@vuepress/plugin-pwa": "2.0.0-rc.108",
+    "@vuepress/plugin-pwa": "2.0.0-rc.110",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.89.2",
     "typescript": "^5.8.3",
-    "vue": "^3.5.16",
+    "vue": "^3.5.17",
     "vuepress": "2.0.0-rc.23",
     "vuepress-theme-plume": "1.0.0-rc.153"
   },
   "dependencies": {
+    "@vuepress/plugin-markdown-include": "2.0.0-rc.108",
     "artplayer": "^5.2.3",
     "chart.js": "^4.5.0",
     "dashjs": "^5.0.3",
