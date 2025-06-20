@@ -43,7 +43,7 @@
     "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",
-    "mermaid": "^11.6.0",
+    "mermaid": "^11.7.0",
     "mpegts.js": "^1.8.0"
   }
 }
