@@ -58,10 +58,10 @@
 
 
 
-/* -------------调整 h2 间距-------------- */
+/* ------------- 调整 h2 间距 -------------- */
 
 
-/* -------------PWA 模式状态栏优化-------------- */
+/* ------------- PWA 模式状态栏优化 -------------- */
 /* 适配 iOS 安全区域（防止状态栏遮挡） */
 body {
   box-sizing: border-box;
@@ -82,13 +82,30 @@ body {
 }
 
 
-/* -------------临时解决代码块标题格式错行-------------- */
+/* ------------- 临时解决代码块标题格式错行 -------------- */
 /* .code-block-title .code-block-title-bar .title .vp-icon {
     display: inline-block;
     vertical-align: middle;
 } */
 
 
+/* ------------- Twikoo 相关 -------------- */
+/* 隐藏输入框头像 */
+.tk-submit .tk-avatar {
+    display: none;
+}
 
+/* 对齐评论预览框布局 */
+.tk-preview-container {
+    margin-left: 0 !important;
+}
 
+/* 对齐评论框下方操作按钮栏 */
+.tk-row.actions {
+    margin-left: 0 !important;
+}
 
+/* 隐藏 Powered By Twikoo */
+/* .tk-footer {
+    display: none;
+} */
