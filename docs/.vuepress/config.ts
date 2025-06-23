@@ -125,19 +125,19 @@ export default defineUserConfig({
     // },
 
     /* 本地搜索, 默认启用 */
-    search: { provider: 'local' },
+    // search: { provider: 'local' },
 
     /**
      * Algolia DocSearch
      * 启用此搜索需要将 本地搜索 search 设置为 false
      * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
      */
-    // search: {
-    //   provider: 'algolia',
-    //   appId: '8RJSX18NRG',
-    //   apiKey: '0672dc1cc3ae2237bb6e456fe7c85f9b',
-    //   indexName: 'Powersen.cn',
-    // },
+    search: {
+      provider: 'algolia',
+      appId: 'AJ60JVPY1F',
+      apiKey: '6476161cdbd1c2613d2bc3bdda1a1277',
+      indexName: 'powersen',
+    },
 
     /**
      * Shiki 代码高亮
