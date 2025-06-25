@@ -62,7 +62,7 @@ export default defineUserConfig({
   head: [
     // 配置站点图标
     ['link', { rel: 'icon', type: 'image/png', href: 'favicons/favicon-32x32.png' }],
-    ['script', { src: 'https://powersen-umami.netlify.app/script.js', 'data-website-id': '2cf893e9-bd26-4919-b1d3-335ee18e23b4' }],
+    ['script', { src: 'https://umami.powersen.cn/script.js', 'data-website-id': '2cf893e9-bd26-4919-b1d3-335ee18e23b4' }],
     // 添加响应式的 theme-color meta 标签
     ['meta', { name: 'theme-color', content: lightThemeColor, media: '(prefers-color-scheme: light)' }],
     ['meta', { name: 'theme-color', content: darkThemeColor, media: '(prefers-color-scheme: dark)' }],
