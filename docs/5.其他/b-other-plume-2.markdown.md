@@ -365,6 +365,17 @@ This is a details block.
 
 
 
+- **default**: `==Default==` - ==Default==
+- **info**: `==Info=={.info}` - ==Info=={.info}
+- **note**: `==Note=={.note}` - ==Note=={.note}
+- **tip**: `==Tip=={.tip}` - ==Tip=={.tip}
+- **warning**: `==Warning=={.warning}` - ==Warning=={.warning}
+- **danger**: `==Danger=={.danger}` - ==Danger=={.danger}
+- **caution**: `==Caution=={.caution}` - ==Caution=={.caution}
+- **important**: `==Important=={.important}` - ==Important=={.important}
+
+
+
 **脚注：**
 
 脚注 1 链接[^first]。

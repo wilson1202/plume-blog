@@ -109,3 +109,98 @@ body {
 /* .tk-footer {
     display: none;
 } */
+
+
+/* 马克笔基础标记样式 */
+mark {
+  --vp-mark-bg-shift: 0;
+  --vp-mark-bg-image: linear-gradient(104deg,
+    rgba(140, 204, 213, 0) 0.9%,
+    rgba(140, 204, 213, 1.25) 2.4%,
+    rgba(140, 204, 213, 0.5) 5.8%,
+    rgba(140, 204, 213, 0.1) 93%,
+    rgba(140, 204, 213, 0.7) 96%,
+    rgba(140, 204, 213, 0) 98%);
+  background-repeat: no-repeat;  /* 不重复，保持单一渐变图层 */
+  background-position: 100% var(--vp-mark-bg-shift);
+  background-size: 100% 100%;    /* 可选：确保背景完全覆盖 mark 区域 */
+  border-radius: 5px 5px;
+}
+
+/* info 荧光标记 */
+mark.info {
+  --vp-mark-bg-image: linear-gradient(104deg,
+    rgba(153, 153, 153, 0) 0.9%,
+    rgba(153, 153, 153, 1) 2.4%,
+    rgba(153, 153, 153, 0.5) 5.8%,
+    rgba(153, 153, 153, 0.1) 93%,
+    rgba(153, 153, 153, 0.7) 96%,
+    rgba(153, 153, 153, 0) 98%);
+}
+
+
+/* tip 荧光标记 */
+mark.tip {
+  --vp-mark-bg-image: linear-gradient(104deg, 
+    rgba(57, 255, 20, 0) 0.9%,
+    rgba(57, 255, 20, 1) 2.4%,
+    rgba(57, 255, 20, 0.5) 5.8%,
+    rgba(57, 255, 20, 0.1) 93%,
+    rgba(57, 255, 20, 0.7) 96%,
+    rgba(57, 255, 20, 0) 98%);
+}
+
+/* warning 荧光标记 */
+mark.warning {
+  --vp-mark-bg-image: linear-gradient(104deg,
+    rgba(255, 183, 3, 0) 0.9%,
+    rgba(255, 183, 3, 1) 2.4%,
+    rgba(255, 183, 3, 0.5) 5.8%,
+    rgba(255, 183, 3, 0.1) 93%,
+    rgba(255, 183, 3, 0.7) 96%,
+    rgba(255, 183, 3, 0) 98%);
+}
+
+/* danger 荧光标记 */
+mark.danger {
+  --vp-mark-bg-image: linear-gradient(104deg,
+    rgba(230, 57, 70, 0) 0.9%,
+    rgba(230, 57, 70, 1) 2.4%,
+    rgba(230, 57, 70, 0.5) 5.8%,
+    rgba(230, 57, 70, 0.1) 93%,
+    rgba(230, 57, 70, 0.7) 96%,
+    rgba(230, 57, 70, 0) 98%);
+}
+
+/* note 荧光标记 */
+mark.note {
+  --vp-mark-bg-image: linear-gradient(104deg,
+    rgba(255, 255, 0, 0) 0.9%,
+    rgba(255, 255, 0, 1) 2.4%,
+    rgba(255, 255, 0, 0.5) 5.8%,
+    rgba(255, 255, 0, 0.1) 93%,
+    rgba(255, 255, 0, 0.7) 96%,
+    rgba(255, 255, 0, 0) 98%);
+}
+
+/* important 荧光标记 */
+mark.important {
+  --vp-mark-bg-image: linear-gradient(104deg, 
+    rgba(163, 113, 247, 0) 0.9%, 
+    rgba(163, 113, 247, 1.25) 2.4%, 
+    rgba(163, 113, 247, 0.5) 5.8%, 
+    rgba(163, 113, 247, 0.1) 93%, 
+    rgba(163, 113, 247, 0.7) 96%, 
+    rgba(163, 113, 247, 0) 98%);
+}
+
+/* caution 荧光标记 */
+mark.caution {
+  --vp-mark-bg-image: linear-gradient(104deg,
+    rgba(242, 138, 178, 0) 0.9%,
+    rgba(242, 138, 178, 1) 2.4%,
+    rgba(242, 138, 178, 0.5) 5.8%,
+    rgba(242, 138, 178, 0.1) 93%,
+    rgba(242, 138, 178, 0.7) 96%,
+    rgba(242, 138, 178, 0) 98%);
+}
