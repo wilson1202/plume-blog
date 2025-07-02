@@ -1,0 +1,48 @@
+/* 明亮模式 */
+:root {
+  --vp-nav-bg-color: rgba(255, 255, 255, 0.4);
+}
+
+.vp-nav {
+  background-color: var(--vp-nav-bg-color) !important;
+  backdrop-filter: blur(16px) saturate(180%) brightness(1.05);
+  -webkit-backdrop-filter: blur(16px) saturate(180%) brightness(1.05);
+
+  border-bottom: none !important; /* 🚫 不要边框 */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); /* 柔和阴影 */
+}
+
+/* 暗黑模式 */
+[data-theme="dark"] {
+  --vp-nav-bg-color: rgba(24, 24, 27, 0.5);
+}
+
+[data-theme="dark"] .vp-nav {
+  background-color: var(--vp-nav-bg-color) !important;
+  backdrop-filter: blur(16px) saturate(180%) brightness(1.1);
+  -webkit-backdrop-filter: blur(16px) saturate(180%) brightness(1.1);
+
+  border-bottom: none !important; /* ✅ 关键点：移除突兀边线 */
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.03); /* 更淡的浮起感 */
+}
+
+/* 用 @supports 条件判断禁用移动端 backdrop-filter */
+@media (max-width: 768px) {
+  .vp-nav {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background-color: rgba(255, 255, 255, 0.92) !important; /* fallback */
+  }
+
+  [data-theme="dark"] .vp-nav {
+    background-color: rgba(24, 24, 27, 0.95) !important;
+  }
+}
+
+/* 搜索框透明 */
+.vp-navbar-search .DocSearch-Button {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+}
+
+
