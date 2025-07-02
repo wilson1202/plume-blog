@@ -3,12 +3,10 @@ import { defineClientConfig } from 'vuepress/client'
 // import NpmBadge from 'vuepress-theme-plume/features/NpmBadge.vue'
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
 // import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
-
 // import CustomComponent from './theme/components/Custom.vue'
-
+// import './theme/styles/custom.css'
 import idouban from './theme/components/idouban.vue'
-
-import './theme/styles/custom.css'
+import './theme/styles/index.css'
 
 export default defineClientConfig({
   enhance({ app }) {

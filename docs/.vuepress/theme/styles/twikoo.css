@@ -1,0 +1,19 @@
+/* 隐藏输入框头像 */
+.tk-submit .tk-avatar {
+    display: none;
+}
+
+/* 对齐评论预览框布局 */
+.tk-preview-container {
+    margin-left: 0 !important;
+}
+
+/* 对齐评论框下方操作按钮栏 */
+.tk-row.actions {
+    margin-left: 0 !important;
+}
+
+/* 隐藏评论框底部的 Powered By Twikoo */
+/* .tk-footer {
+    display: none;
+} */
