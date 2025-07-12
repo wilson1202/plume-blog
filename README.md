@@ -18,7 +18,7 @@ pnpm docs:build
 # preview production build in local
 pnpm docs:preview
 # update vuepress and theme
-pnpm dlx vp-update
+pnpm vp-update
 ```
 
 ## Documents
