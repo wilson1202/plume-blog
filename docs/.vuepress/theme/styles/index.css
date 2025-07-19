@@ -11,3 +11,6 @@
 
 /* 透明导航栏 */
 @import './blur.css';
+
+/* 博客和文章样式 */
+@import './blog.css';
