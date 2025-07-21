@@ -50,4 +50,6 @@
     ),
         url(https://api.powersen.cn/wallpaper/bing);
     background-attachment: fixed; /* 固定背景图片 */
+    background-size: cover;       /* 背景图片铺满容器 */
+    background-repeat: no-repeat; /* 不重复拼接 */
 }
