@@ -5,7 +5,7 @@ export const navbar = defineNavbarConfig([
   { text: '博客', link: '/blog/', icon: 'solar:book-2-bold' },
   // { text: '分类', link: '/blog/categories/', icon: 'mingcute:classify-2-fill' },
   // { text: '标签', link: '/blog/tags/', icon: 'mingcute:tag-2-fill' },
-  // { text: '归档', link: '/blog/archives/', icon: 'fluent:archive-16-filled' },
+  // { text: '归档', link: '/blog/archives/', icon: 'mingcute:box-2-fill' },
   {
     text: '笔记',
     icon: 'mingcute:book-3-fill',
