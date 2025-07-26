@@ -10,9 +10,9 @@ export const navbar = defineNavbarConfig([
     text: '笔记',
     icon: 'mingcute:book-3-fill',
     items: [
-      { text: '中级会计', link: '/notes/中级会计/' },
-      { text: 'CTA', link: '/notes/CTA/' },
-      { text: 'CPA', link: '/notes/CPA/' }
+      { text: '中级会计', link: '/notes/中级会计/', icon: 'emojione-monotone:letter-m' },
+      { text: 'CTA', link: '/notes/CTA/', icon: 'emojione-monotone:letter-c' },
+      { text: 'CPA', link: '/notes/CPA/', icon: 'emojione-monotone:letter-c' }
     ]
   },
 
