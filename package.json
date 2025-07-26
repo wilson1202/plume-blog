@@ -30,9 +30,9 @@
     "sass-embedded": "^1.89.2",
     "twikoo": "^1.6.44",
     "typescript": "^5.8.3",
-    "vue": "^3.5.17",
+    "vue": "^3.5.18",
     "vuepress": "2.0.0-rc.24",
-    "vuepress-theme-plume": "1.0.0-rc.157"
+    "vuepress-theme-plume": "1.0.0-rc.159"
   },
   "dependencies": {
     "artplayer": "^5.2.3",
@@ -44,7 +44,7 @@
     "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",
-    "mermaid": "^11.8.1",
+    "mermaid": "^11.9.0",
     "mpegts.js": "^1.8.0"
   }
 }
