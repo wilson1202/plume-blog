@@ -7,14 +7,17 @@
     /* 博客单项hover shadow */
     --vp-blog-post-item-hover-shadow: rgba(80, 134, 161, 0.2);
     /* 博客背景 */
-    --main-container-bg: rgba(255, 255, 255, 0.9);
+    --main-container-bg: rgba(255, 255, 255, 0);
+    /* 博客卡片透明效果 */
+    --vp-c-bg: rgba(255, 255, 255, 0.93); 
 }
 
 [data-theme="dark"] {
     --vp-doc-blog-bg: rgba(30, 120, 120, 0.15);
     --vp-blog-post-item-hover-border: rgba(80, 134, 161, 0.4);
     --vp-blog-post-item-hover-shadow: rgba(80, 134, 161, 0.15);
-    --main-container-bg: rgba(0, 0, 0, 0.9);
+    --main-container-bg: rgba(0, 0, 0, 0);
+    --vp-c-bg: rgba(27, 27, 31, 0.93);
 }
 
 
@@ -41,18 +44,27 @@
     }
 }
 
-/* 博客背景效果 */
-/* .vp-blog {
+/* 博客背景效果 https://api.powersen.cn/wallpaper/bing*/
+.vp-blog {
     background-image: linear-gradient(
         var(--main-container-bg),
         var(--main-container-bg)
     ),
-        url(https://api.powersen.cn/wallpaper/bing);
-    background-attachment: fixed;
-    background-size: cover;
+    url('/assets/bg.svg');
+    background-attachment: fixed;     /* 桌面端固定背景 */
+    background-size: cover;           /* 桌面端填充 */
+    background-position: center center;
     background-repeat: no-repeat;
-} */
+}
 
+/* 博客背景效果 移动端优化 */
+@media (max-width: 768px) {
+    .vp-blog {
+        background-attachment: fixed; /* 移动端不固定背景 */
+        background-size: auto 100%;    /* 高度完整显示，宽度自适应 */
+        background-position: center center; /* 居中显示 */
+    }
+}
 
 /* 标签+分类+归档 效果 */
 .vpi-tag {
