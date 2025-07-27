@@ -1,7 +1,13 @@
 /* index.css */
 
-/* 自定义样式 */
+/* 自定义临时样式 */
 @import './custom.css';
+
+/* 主题颜色 */
+@import './colors.css';
+
+/* PWA 样式 */
+@import './pwa.css';
 
 /* 荧光笔 */
 @import './mark.css';
@@ -14,3 +20,4 @@
 
 /* 博客和文章样式 */
 @import './blog.css';
+
