@@ -33,8 +33,8 @@ dpkg -i smartdns.1.yyyy.MM.dd-REL.arm-debian-all.deb
 
 ::: caution 关注 **Ubuntu** 系统 **53** 端口占用问题
 
-1. ubuntu系统下，`systemd-resolved`会占用TCP53和UDP53端口, 你需要手动解决端口占用问题或者修改smartdns监听端口。
-2. 日志文件在`/var/log/smartdns/smartdns.log`
+1. ubuntu系统下，`systemd-resolved`会占用 `TCP53` 和 `UDP53` 端口, 你需要手动解决端口占用问题或者修改 SmartDNS 监听端口。
+2. 日志文件在 `/var/log/smartdns/smartdns.log`{.filepath}
 
 :::
 
@@ -93,7 +93,7 @@ lsof -i:53
 vi /etc/smartdns/smartdns.conf
 ```
 
-`/etc/smartdns/smartdns.conf`配置包含如下基本内容：
+::: note `/etc/smartdns/smartdns.conf`{.filepath} 配置包含如下基本内容：
 
 ```ini title="smartdns.conf"
 # 指定监听的端口号
@@ -105,6 +105,7 @@ server-tls 8.8.8.8
 address /example.com/1.2.3.4
 domain-rules /example.com/ -address 1.2.3.4
 ```
+:::
 
 ## 启动服务
 
@@ -121,9 +122,9 @@ systemctl start smartdns
 
 - 修改 WAN 口或者 DHCP DNS 为树莓派 IP 地址。
 
-  **注意：**
-
-  1. 每款路由器配置方法不尽相同，请在网络上搜索对应配置方法。 1. 华为等路由器可能不支持配置 DNS 为本地 IP，可修改电脑端或手机端的 DNS 服务器为树莓派 IP。
+>[!WARNING]
+>1. 每款路由器配置方法不尽相同，请在网络上搜索对应配置方法。
+>2. 华为等路由器可能不支持配置 DNS 为本地 IP，可修改电脑端或手机端的 DNS 服务器为树莓派 IP。
 
 ## 检测服务是否配置成功
 

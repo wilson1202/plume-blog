@@ -11,8 +11,8 @@ tags:
 ## 简介
 
 <div style="text-align: center;">
-  <img src="/images/b-software-docker-2.zfile/ZFile-icon.png" 
-       alt="ZFile-icon" 
+  <img src="/images/b-software-docker-2.zfile/ZFile-icon.png"
+       alt="ZFile-icon"
        style="height: 100px; width: auto; max-width: 100%; object-fit: contain;">
 </div>
 
@@ -44,13 +44,13 @@ services:
 
 ::: info **配置文件映射**
 
-需要先在宿主机下载配置文件，然后映射到容器内: 下载 [`application.properties`](https://c.jun6.net/ZFILE/application.properties) 文件到 `/root/zfile/` 目录下, 此目录可自行更改, 命令如:
+- 需要先在宿主机下载配置文件，然后映射到容器内: 下载 [`application.properties`{.filepath}](https://c.jun6.net/ZFILE/application.properties) 文件到 `/root/zfile/` 目录下, 此目录可自行更改, 命令如:
 
 ```bash
 curl -k -o /volume1/docker/zfile/application.properties https://c.jun6.net/ZFILE/application.properties
 ```
 
-**然后增加一个 `-v` 参数(见上面倒数第二行)，将此源文件映射到容器内（如修改宿主机的 `application.properties` 为其他路径, 则上面命令也要一起修改）**
+- 然后增加一个 `-v` 参数 ==（见上面倒数第二行）=={.important}，将此源文件映射到容器内（如修改宿主机的 `application.properties`{.filepath} 为其他路径, 则上面命令也要一起修改）
 
 :::
 
