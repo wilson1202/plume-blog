@@ -376,6 +376,10 @@ This is a details block.
 
 
 
+在对话窗口输入: <kbd>cmd</kbd>然后点击 OK 按钮。
+ 
+保存文件请使用快捷键 <kbd>Ctrl</kbd> + <kbd>S</kbd>
+
 **脚注：**
 
 脚注 1 链接[^first]。

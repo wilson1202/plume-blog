@@ -308,9 +308,9 @@ tags:
 
 ## 调整系统分区
 
-当 ESXi 安装程序窗口出现时，在 5 秒内按 **Shift+O** 来编辑启动选项。
+当 ESXi 安装程序窗口出现时，在 5 秒内按 <kbd>Shift</kbd>+<kbd>O</kbd> 来编辑启动选项。
 
-在 **cdromBoot runweasel** 后面追加 `autoPartitionOSDataSize` 参数 ，以分配 **4G** 空间为例：
+在 <kbd>cdromBoot runweasel</kbd> 后面追加 `autoPartitionOSDataSize` 参数 ，以分配 **4G** 空间为例：
 
 ```bash
 <ENTER: Apply options and boot>
@@ -333,7 +333,7 @@ systemMediaSize 引导选项接受以下参数以及用于 ESXi 系统分区的�
 
 **方案一：在安装镜像启动主机时输入参数以调整启动选项**
 
-使用安装镜像启动主机，当 ESXi 安装程序窗口出现时，在 5 秒内按下 **Shift+O** 以编辑启动选项。
+使用安装镜像启动主机，当 ESXi 安装程序窗口出现时，在 5 秒内按下 <kbd>Shift</kbd>+<kbd>O</kbd> 以编辑启动选项。
 
 ```bash
 <ENTER: Apply options and boot>
