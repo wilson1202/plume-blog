@@ -119,7 +119,7 @@ kbd {
     margin: 0 .3rem;
 
     padding: .1875rem .375rem;
-    padding-top: .05rem;
+    padding-top: .1rem;
     font-size: .875em;
 
     color: var(--kbd-text-color);
