@@ -21,3 +21,5 @@
 /* 博客和文章样式 */
 @import './blog.css';
 
+/* 代码块样式 */
+@import './code.css';
