@@ -17,7 +17,7 @@ copyright:
 > 新安装的 Debian 系统，默认一般使用 DHCP 获取 IP 地址，除非在安装过程中，使用了指定的 IP 地址。本文将介绍如何在 Debian 系统中，配置使用静态 IP 地址，配置网关，以及设置 DNS 服务器。
 >
 
-这些配置通过修改配置文件，很容易实现。在 Redhat 系列的 Linux 环境中，我们一般修改网卡的网络配置文件，对应的文件名为 `/etc/sysconfig/network-scripts/ifcfg-eXX`{.filepath}，其中 **eXX** 即为网络设备名。网络设备的列表可以他通过 `ifconfig` 命令获取。同样的，在 Debian 环境下，我们只需要修改网络的配置文件便可以了。相比之下，配置过程要比 Redhat 更为方便，只需要修改 `/etc/network/interfaces`{.filepath} 文件。
+这些配置通过修改配置文件，很容易实现。在 Redhat 系列的 Linux 环境中，我们一般修改网卡的网络配置文件，对应的文件名为 `/etc/sysconfig/network-scripts/ifcfg-eXX`{.filepath}，其中  <kbd>eXX</kbd> 即为网络设备名。网络设备的列表可以他通过 `ifconfig` 命令获取。同样的，在 Debian 环境下，我们只需要修改网络的配置文件便可以了。相比之下，配置过程要比 Redhat 更为方便，只需要修改 `/etc/network/interfaces`{.filepath} 文件。
 
 ::: important 以 `root` 权限打开 `/etc/network/interfaces`{.filepath}
 
@@ -47,9 +47,9 @@ netmask 255.255.255.0    #子网掩码
 gateway 192.168.9.254    #网关
 ```
 
-使用 <kbd>Ctrl</kbd>+<kbd>O</kbd> 保存配置，使用 <kbd>Ctrl</kbd>+<kbd>X</kbd> 退出 **nano** 编辑器。
+使用 <kbd>Ctrl + O</kbd> 保存配置，使用 <kbd>Ctrl + X</kbd> 退出 **nano** 编辑器。
 
-## 配置Debian环境中的 DNS 服务器
+## 配置 Debian 环境中的 DNS 服务器
 
 这个配置过程与 ::devicon:redhat-wordmark =24px:: 系列的系统是相同的，只需要修改 `/etc/resolv.conf`{.filepath} 文件即可，内容如下，
 
