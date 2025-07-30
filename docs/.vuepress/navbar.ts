@@ -28,6 +28,7 @@ export const navbar = defineNavbarConfig([
     text: '时光',
     icon: 'streamline-logos:douban-logo-solid',  
     items: [
+      { text: '说说', link: '/notes/说说/1.shuoshuo.md', icon: 'fa6-brands:weibo' },
       { text: '读书', link: '/notes/豆瓣/1.book.md', icon: 'ic:twotone-menu-book' },
       { text: '电影', link: '/notes/豆瓣/2.movie.md', icon: 'si:movie-duotone' },
       { text: '音乐', link: '/notes/豆瓣/3.song.md', icon: 'bi:music-player-fill' },

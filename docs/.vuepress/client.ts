@@ -6,6 +6,7 @@ import { defineClientConfig } from 'vuepress/client'
 // import CustomComponent from './theme/components/Custom.vue'
 // import './theme/styles/custom.css'
 import idouban from './theme/components/idouban.vue'
+import ShuoshuoList from './theme/components/ShuoshuoList.vue'
 import './theme/styles/index.css'
 
 export default defineClientConfig({
@@ -18,5 +19,6 @@ export default defineClientConfig({
 
     // your custom components
     app.component('idouban', idouban)
+    app.component('ShuoshuoList', ShuoshuoList)
   },
 })
