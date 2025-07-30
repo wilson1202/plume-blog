@@ -24,7 +24,11 @@
           <video controls :src="item.video" preload="metadata" />
         </div>
 
-        <div class="date">发布于: {{ formatDate(item.date) }}</div>
+        <div class="date">
+          发布于: {{ formatDate(item.date) }}<span v-if="item.place">&nbsp;{{ item.place }}</span>
+        </div>
+
+
 
         <!-- <a
           class="link"
@@ -142,7 +146,7 @@ onMounted(async () => {
 
 <style scoped>
 .shuoshuo-list {
-  max-width: 700px;
+  max-width: 960px;
   margin: 0 auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--vp-c-text-1);
