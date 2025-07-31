@@ -13,6 +13,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
+import metingPlugin from 'vuepress-plugin-meting2'
 
 const siteTitle = 'Powersen'
 const siteDescription = "This is Powersen's personal blog & notebook."
@@ -56,6 +57,26 @@ export default defineUserConfig({
       },
       update: 'hint',
       favicon: 'favicons/favicon.ico',
+    }),
+
+    // 音乐播放器插件
+    metingPlugin({
+      metingOptions: {
+        global: true, // 开启关闭全局播放器
+        server: "netease", // 音乐服务提供者 netease,tencent
+        api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
+        type: "playlist",
+        mid: "3080704436",
+        aplayerOptions: {
+          // lrcType: 2, // 不显示歌词
+          lrcDisplay: 'toggle', // 切换歌词显示
+          loop: 'all',
+          order: 'random',
+          preload: 'auto',
+          volume: 0.5,
+          mutex: true,
+        },
+      },
     }),
   ],
 
