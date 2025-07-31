@@ -132,7 +132,7 @@ function formatDate(dateStr) {
 onMounted(async () => {
   try {
     const res = await fetch(
-      'https://cdn.jsdelivr.net/gh/nrjycyd/weibospider@main/weibodata/shuoshuo.json'
+      'https://weibo.070112.xyz/shuoshuo.json'
     )
     if (!res.ok) throw new Error(`状态码 ${res.status}`)
     shuoshuos.value = await res.json()
