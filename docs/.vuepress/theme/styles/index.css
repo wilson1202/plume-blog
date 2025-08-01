@@ -23,3 +23,6 @@
 
 /* 代码块样式 */
 @import './code.css';
+
+/* 引用块样式 */
+@import './blockquote.css';
