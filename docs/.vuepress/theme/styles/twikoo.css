@@ -17,3 +17,19 @@
 /* .tk-footer {
     display: none;
 } */
+
+/* 增加"评论区"标题 */
+.vp-comment {
+    margin-top: 80px;
+    position: relative;
+}
+
+.vp-comment::before {
+    content: "评论区";
+    position: absolute;
+    top: -40px; /* 调整这个值使文字出现在合适的位置 */
+    left: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333; /* 文字颜色 */
+}
