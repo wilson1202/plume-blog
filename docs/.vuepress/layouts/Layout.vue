@@ -83,11 +83,10 @@ const copyLink = async () => {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  color: rgba(33, 37, 41, 0.75);
+  color: var(--vp-c-text-3);
   font-size: 0.85em;
   margin-top: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--c-border);
 }
 
 .license-info a {

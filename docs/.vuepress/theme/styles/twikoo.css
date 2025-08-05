@@ -19,6 +19,19 @@
 } */
 
 /* 增加"评论区"标题 */
+:root {
+  /* 亮色主题 */
+  --blockquote-border-color: rgba(200, 200, 200, 0.5);
+  --comment-title-color: #333;
+}
+
+[data-theme="dark"] {
+  /* 暗黑主题 */
+  --blockquote-border-color: rgba(150, 150, 150, 0.5);
+  --comment-title-color: #ccc; /* 暗黑模式下使用浅灰色文字 */
+}
+
+/* 评论区样式 */
 .vp-comment {
     margin-top: 80px;
     position: relative;
@@ -27,9 +40,9 @@
 .vp-comment::before {
     content: "评论区";
     position: absolute;
-    top: -40px; /* 调整这个值使文字出现在合适的位置 */
+    top: -40px;
     left: 0;
     font-size: 1.5em;
     font-weight: bold;
-    color: #333; /* 文字颜色 */
+    color: var(--comment-title-color); /* 使用CSS变量控制颜色 */
 }
