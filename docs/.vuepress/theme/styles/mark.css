@@ -1,7 +1,7 @@
 mark {
   --vp-mark-color: 140, 204, 213;
   display: inline;
-  padding: 0.2em 0.2em 0.2em 0.2em;
+  /* padding: 0.2em 0.2em 0.2em 0.2em; */
   background-image: linear-gradient(
     to top,
     rgba(var(--vp-mark-color), 0.9) 0%,
