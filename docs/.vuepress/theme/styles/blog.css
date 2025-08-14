@@ -47,6 +47,16 @@
     }
 }
 
+/* 文章路径栏 首页＞博客 */
+.vp-breadcrumb .breadcrumb{
+    font-weight: initial !important;
+    color: var(--vp-c-brand-1) !important;
+}
+
+.vp-breadcrumb {
+    border-left: solid 2px var(--vp-c-border) !important;
+}
+
 
 /*博客页面 文章卡片效果*/
 .vp-blog-post-item{
