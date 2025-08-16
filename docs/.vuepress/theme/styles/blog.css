@@ -53,20 +53,6 @@
     }
 }
 
-/* 文章底部，上一页、下一页格式 */
-/* .title {
-    display: block;
-    font-size: 17px !important;
-    font-weight: 700 !important;
-    line-height: 20px;
-    color: var(--vp-c-brand-1);
-    transition: color var(--vp-t-color);
-} */
-
-/* .code-block-title .code-block-title-bar .title {
-    position: relative;
-    padding: 11px 12px;
-} */
 
 /* 文章路径栏 首页＞博客 */
 .vp-breadcrumb {

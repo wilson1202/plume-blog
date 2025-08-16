@@ -29,3 +29,6 @@
 
 /* 提示容器样式 */
 @import './hint-container.css';
+
+/* 上一页、下一页 链接样式 */
+@import './pager-link.css';
