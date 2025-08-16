@@ -7,9 +7,6 @@
   background-color: var(--vp-nav-bg-color) !important;
   backdrop-filter: blur(16px) saturate(180%) brightness(1.05);
   -webkit-backdrop-filter: blur(16px) saturate(180%) brightness(1.05);
-
-  border-bottom: none !important; /* 🚫 不要边框 */
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); /* 柔和阴影 */
 }
 
 /* 暗黑模式 */
@@ -21,9 +18,6 @@
   background-color: var(--vp-nav-bg-color) !important;
   backdrop-filter: blur(16px) saturate(180%) brightness(1.1);
   -webkit-backdrop-filter: blur(16px) saturate(180%) brightness(1.1);
-
-  border-bottom: none !important; /* ✅ 关键点：移除突兀边线 */
-  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.03); /* 更淡的浮起感 */
 }
 
 /* 用 @supports 条件判断禁用移动端 backdrop-filter */
@@ -46,3 +40,9 @@
 }
 
 
+/* 侧边栏 sidebar 颜色保持不变 */
+@media (min-width: 960px) {
+    .vp-navbar.has-sidebar .title {
+        background-color: var(--vp-sidebar-bg-color) !important;
+    }
+}
