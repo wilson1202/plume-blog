@@ -26,3 +26,6 @@
 
 /* 引用块样式 */
 @import './blockquote.css';
+
+/* 提示容器样式 */
+@import './hint-container.css';
