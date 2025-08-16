@@ -11,7 +11,7 @@
     /* 博客卡片透明效果 */
     --vp-c-bg: rgba(255, 255, 255, 0.93); 
     /* 超链接颜色 */
-    --vp-c-link: rgb(179, 0, 0, 0.9);
+    --vp-c-link: #d64b4b;
     /* 超链接下划线颜色 */
     /* --link-underline-color: rgb(222,226,230); */
 }
@@ -22,7 +22,7 @@
     --vp-blog-post-item-hover-shadow: rgba(80, 134, 161, 0.15);
     --main-container-bg: rgba(0, 0, 0, 0);
     --vp-c-bg: rgba(27, 27, 31, 0.93);
-    --vp-c-link: rgb(220, 100, 100, 0.7);
+    --vp-c-link: #c03939;
     /* --link-underline-color: rgb(222,226,230); */
 }
 
