@@ -99,6 +99,11 @@
     text-decoration-color: var(--vp-c-link) !important;
 }
 
+/* 文章标题 h1 h2 颜色 保持黑色默认 */
+.vp-doc .header-anchor:hover {
+    color: inherit !important;
+}
+
 /* 去除超链接右上角箭头 */
 :is(.vp-external-link-icon, .vp-doc a[href*="://"], .vp-doc a[target="_blank"]):not(.no-icon)::after {
     display: none !important;
