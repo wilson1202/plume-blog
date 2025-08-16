@@ -6,13 +6,6 @@ tags:
   - docker
   - debian
   - linux
-copyright:
-  creation: runoob.com
-  license: CC-BY-4.0
-  source: https://www.runoob.com/docker/debian-docker-install.html
-  author:
-    name: runoob.com
-    url: https://www.runoob.com/
 ---
 Docker 支持以下的 64 位 Debian 版本：
 

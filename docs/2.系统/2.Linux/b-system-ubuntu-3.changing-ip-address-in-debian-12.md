@@ -6,13 +6,6 @@ tags:
   - ip
   - dns
   - debian
-copyright:
-  creation: www.cnblogs.com
-  license: CC-BY-4.0
-  source: https://www.cnblogs.com/Thenext/p/16950850.html
-  author:
-    name: Thenext
-    url: https://www.cnblogs.com/Thenext
 ---
 > 新安装的 Debian 系统，默认一般使用 DHCP 获取 IP 地址，除非在安装过程中，使用了指定的 IP 地址。本文将介绍如何在 Debian 系统中，配置使用静态 IP 地址，配置网关，以及设置 DNS 服务器。
 >
