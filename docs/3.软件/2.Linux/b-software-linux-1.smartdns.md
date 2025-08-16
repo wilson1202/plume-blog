@@ -5,14 +5,6 @@ permalink: /article/gewr3ily/
 tags:
   - dns
   - linux
-copyright:
-  creation: pymumu
-  license: CC-BY-4.0
-  source: https://pymumu.github.io/smartdns/install/linux/
-  author:
-    name: pymumu
-    url: https://pymumu.github.io/smartdns/
-
 ---
 ## Linux安装
 
@@ -93,7 +85,7 @@ lsof -i:53
 vi /etc/smartdns/smartdns.conf
 ```
 
-::: note `/etc/smartdns/smartdns.conf`{.filepath} 配置包含如下基本内容：
+::: info `/etc/smartdns/smartdns.conf`{.filepath} 配置包含如下基本内容：
 
 ```ini title="smartdns.conf"
 # 指定监听的端口号
@@ -144,3 +136,7 @@ Address:        192.168.1.1#53
 Non-authoritative answer:
 smartdns        name = smartdns.
 ```
+
+## 参考
+
+[标准Linux系统 / 树莓派 - SmartDNS](https://pymumu.github.io/smartdns/install/linux/)

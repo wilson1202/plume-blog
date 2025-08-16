@@ -78,3 +78,7 @@ ping www.debian.cn
 2. `interfaces`{.filepath} 文件中 `auto eth0` 也很关键， `/etc/init.d/networking`{.filepath} 根据这个字段判断是否启动某个网卡的网络；
 
 :::
+
+## 参考
+
+[debian 11修改ip地址的方法 - Thenext - 博客园](https://www.cnblogs.com/Thenext/p/16950850.html)

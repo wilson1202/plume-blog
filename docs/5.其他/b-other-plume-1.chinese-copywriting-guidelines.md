@@ -5,13 +5,6 @@ permalink: /article/oem8xd5j/
 tags:
   - 空格
   - 排版
-copyright:
-  creation: reprint
-  license: CC-BY-4.0
-  source: https://github.com/sparanoid/chinese-copywriting-guidelines
-  author:
-    name: sparanoid
-    url: https://github.com/sparanoid
 ---
 
 
@@ -309,3 +302,7 @@ CSS Text Module Level 4 的 [`text-spacing`](https://www.w3.org/TR/css-text-4/#t
 衍生项目的用法可能与本项目存在差异。
 
 - [mzlogin/chinese-copywriting-guidelines](https://github.com/mzlogin/chinese-copywriting-guidelines)
+
+## 参考
+
+[sparanoid/chinese-copywriting-guidelines: 中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)

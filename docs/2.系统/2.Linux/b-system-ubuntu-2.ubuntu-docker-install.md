@@ -6,13 +6,6 @@ tags:
   - docker
   - ubuntu
   - linux
-copyright:
-  creation: runoob.com
-  license: CC-BY-4.0
-  source: https://www.runoob.com/docker/ubuntu-docker-install.html
-  author:
-    name: runoob.com
-    url: https://www.runoob.com/
 ---
 Docker Engine-Community 支持以下的 Ubuntu 版本：
 
@@ -195,3 +188,6 @@ sudo apt-get purge docker-ce
 sudo rm -rf /var/lib/docker
 ```
 
+## 参考
+
+[Ubuntu Docker 安装 | 菜鸟教程](https://www.runoob.com/docker/ubuntu-docker-install.html)
