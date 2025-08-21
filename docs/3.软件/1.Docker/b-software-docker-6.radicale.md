@@ -74,72 +74,98 @@ services:
 
 :::
 
-## 配合 vCards CN 使用
+## 软件使用
 
-::: info 项目地址：[metowolf/vCards](https://github.com/metowolf/vCards)
+1. 配合 vCards CN** 
 
-:::
+    ::: info GitHub 项目地址：[metowolf/vCards](https://github.com/metowolf/vCards)
 
-::: tip [添加 CardDav 服务器 Radicale 输出格式的支持](https://github.com/metowolf/vCards/pull/232)，只需运行：
+    :::
 
-```bash
-npm run-script radicale
-```
+    ::: tip [添加 CardDav 服务器 Radicale 输出格式的支持](https://github.com/metowolf/vCards/pull/232)，只需运行：
 
-:::
+    ```bash
+    npm run-script radicale
+    ```
+
+    :::
+
+2. **访问网页创建账户**
+
+   网址：`ip:5232` ，并创建 `Username` 为 `cn` 和 `Password` 为 `cn` 的账户
+
+   ![image-20250821184246845](/images/b-software-docker-6.radicale/image-20250821184246845.png)
+
+3. **导入 vcard 通讯录**
+
+    将 radicale 格式的 `.vcf` 文件批量复制到 **Docker** 文件夹
+
+    > 路径：
+    >
+    > ```
+    > /volume2/Docker/radicale/data/collections/collection-root/cn
+    > ```
+
+    ::: info 此处的 cn 为创建用户名后自动生成
+
+    ::: 
+
+4. **刷新网页查看成果**
+
+   ![image-20250821185712576](/images/b-software-docker-6.radicale/image-20250821185712576.png)
+
+5. **群晖反代服务地址**
+
+   「控制面板」→「登陆门户」→「高级」→「反向代理服务器」→「新增」
+
+   ![image-20250821190844974](/images/b-software-docker-6.radicale/image-20250821190844974.png)
+
+6. **手动订阅 CardDAV 服务**
+
+   - 服务器：`vcards.metowolf.com`
+   - 用户名：`cn`
+   - 密码：`cn` 
+
+   ::: tabs
+
+   @tab **iOS**
+   「设置」→「通讯录」→「账户」→「添加账户」→「其他」→「添加 CardDAV 账户」
+
+   参考：[官方文档](https://support.apple.com/zh-cn/guide/iphone/ipha0d932e96/ios)
+
+   @tab **Mac**
+   「通讯录」→「设置」→「账户」→「其他通讯录账户」
+
+   参考：[官方文档](https://support.apple.com/zh-cn/guide/contacts/adrb7e5aaa2a/mac)
+
+   ::: 
 
 ## 添加计划任务
 
-**群晖**
+- **群晖计划任务**
 
-```mermaid
-classDiagram
-direction LR
+  「控制面板」→「任务计划」→「新增」→「计划的任务」→「用户定义的脚本」
 
-控制面板 --> 任务计划
-任务计划 --> 新增
-新增 --> 计划的任务
-计划的任务 --> 用户定义的脚本
-用户定义的脚本 --> 常规
-用户定义的脚本 --> 计划
-用户定义的脚本 --> 任务设置
+  ::: tabs
 
+  @tab **常规**
 
-class 控制面板 {
-    +任务计划()
-}
+  任务名称：radicale
 
-class 任务计划 {
-    +新增()
-}
+  用户账号：user
 
-class 新增 {
-    +计划的任务()
-    触发的任务
-}
+  ==注：与 docker 使用的 UID、GID 对应用户保持一致=={.important}
 
-class 计划的任务 {
-    +用户定义的脚本()
-}
+  @tab **计划**
 
-class 用户定义的脚本 {
-    +常规()
-    +计划()
-    +任务设置()
-}
+  日期：重复-每天
 
-class 常规 {
-    +任务名称: radicale
-    +用户账号: user
-}
+  时间：开始时间-05:00
 
-class 计划 {
-    +日期: 重复-每天
-    +时间: 开始时间-05:00
-}
+  @tab **任务计划**
 
-class 任务设置 {
-    +通知设置: 空
-    +运行命令: bash /volume2/Docker/radicale/update_radicale.sh
-}
-```
+  通知设置：空
+  
+  运行命令：`bash /volume2/Docker/radicale/update_radicale.sh`
+  
+  ::: 
