@@ -27,25 +27,25 @@
     "@vuepress/plugin-markdown-chart": "2.0.0-rc.112",
     "@vuepress/plugin-pwa": "2.0.0-rc.112",
     "http-server": "^14.1.1",
-    "sass-embedded": "^1.92.0",
+    "sass-embedded": "^1.92.1",
     "twikoo": "^1.6.44",
     "typescript": "^5.9.2",
     "vue": "^3.5.21",
     "vuepress": "2.0.0-rc.24",
     "vuepress-plugin-meting2": "1.4.2",
-    "vuepress-theme-plume": "1.0.0-rc.162"
+    "vuepress-theme-plume": "1.0.0-rc.163"
   },
   "dependencies": {
-    "artplayer": "^5.2.5",
+    "artplayer": "^5.3.0",
     "chart.js": "^4.5.0",
     "dashjs": "^5.0.3",
     "echarts": "^5.6.0",
     "flowchart.ts": "^3.0.1",
-    "hls.js": "^1.6.11",
+    "hls.js": "^1.6.12",
     "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",
-    "mermaid": "^11.10.1",
+    "mermaid": "^11.11.0",
     "mpegts.js": "^1.8.0"
   }
 }

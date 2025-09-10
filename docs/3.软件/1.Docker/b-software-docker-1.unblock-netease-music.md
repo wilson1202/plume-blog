@@ -53,8 +53,16 @@ services:
 
 创建一个从 `/app/logs/app.log` 到 `/app/app.log` 的符号链接
 
-```js
+```js:no-line-numbers
 ln -sf /app/logs/app.log /app/app.log
+```
+
+:::
+
+::: tip 指定歌曲源
+
+```yaml:no-line-numbers
+command: -c 'ln -sf /app/logs/app.log /app/app.log && node app.js -s -o migu'  # [!code word:-o migu]
 ```
 
 :::
