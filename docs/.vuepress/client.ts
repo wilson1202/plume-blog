@@ -19,10 +19,11 @@ export default defineClientConfig({
     // app.component('Swiper', Swiper) // you should install `swiper`
 
     // your custom components
+    // app.component('CustomComponent', CustomComponent)
     app.component('idouban', idouban)
     app.component('ShuoshuoList', ShuoshuoList)
   },
-  
+
   layouts: {
     Layout,
   },

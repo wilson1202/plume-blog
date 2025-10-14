@@ -3,12 +3,15 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "pnpm@10.17.0+sha512.fce8a3dd29a4ed2ec566fb53efbb04d8c44a0f05bc6f24a73046910fb9c3ce7afa35a0980500668fa3573345bd644644fa98338fa168235c80f4aa17aa17fbef",
+  "packageManager": "pnpm@10.18.2+sha512.9fb969fa749b3ade6035e0f109f0b8a60b5d08a1a87fdf72e337da90dcc93336e2280ca4e44f2358a649b83c17959e9993e777c2080879f3801e6f0d999ad3dd",
   "pnpm": {
     "onlyBuiltDependencies": [
       "@parcel/watcher",
       "esbuild"
-    ]
+    ],
+    "overrides": {
+      "vue-router": "4.5.1"
+    }
   },
   "author": "wilson1202 <ibox_wilson@outlook.com>",
   "license": "MIT",
@@ -27,21 +30,21 @@
     "@vuepress/plugin-markdown-chart": "2.0.0-rc.112",
     "@vuepress/plugin-pwa": "2.0.0-rc.112",
     "http-server": "^14.1.1",
-    "sass-embedded": "^1.93.0",
+    "sass-embedded": "^1.93.2",
     "twikoo": "^1.6.44",
-    "typescript": "^5.9.2",
-    "vue": "^3.5.21",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.22",
     "vuepress": "2.0.0-rc.24",
     "vuepress-plugin-meting2": "1.4.2",
-    "vuepress-theme-plume": "1.0.0-rc.164"
+    "vuepress-theme-plume": "1.0.0-rc.171"
   },
   "dependencies": {
     "artplayer": "^5.3.0",
-    "chart.js": "^4.5.0",
+    "chart.js": "^4.5.1",
     "dashjs": "^5.0.3",
     "echarts": "^5.6.0",
     "flowchart.ts": "^3.0.1",
-    "hls.js": "^1.6.12",
+    "hls.js": "^1.6.13",
     "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",

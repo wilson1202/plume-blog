@@ -110,7 +110,7 @@
 }
 
 /*博客页面 文章卡片效果*/
-.vp-blog-post-item{
+/* .vp-blog-post-item{
     @media screen and (max-width: 770px) {
         margin: 0 0!important;
         border-radius: 6px;
@@ -121,29 +121,29 @@
         box-shadow: 0 0 7px 2px var(--vp-blog-post-item-hover-shadow)!important;
         border: 1px var(--vp-blog-post-item-hover-border) solid;
     }
-}
+} */
 
 /* 博客背景效果 https://api.powersen.cn/wallpaper/bing*/
-.vp-blog {
+/* .vp-blog {
     background-image: linear-gradient(
         var(--main-container-bg),
         var(--main-container-bg)
     ),
     url('/assets/bg.svg');
-    background-attachment: fixed;     /* 桌面端固定背景 */
-    background-size: cover;           /* 桌面端填充 */
+    background-attachment: fixed;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-}
+} */
 
 /* 博客背景效果 移动端优化 */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .vp-blog {
-        background-attachment: fixed; /* 移动端不固定背景 */
-        background-size: auto 100%;    /* 高度完整显示，宽度自适应 */
-        background-position: center center; /* 居中显示 */
+        background-attachment: fixed;
+        background-size: auto 100%; 
+        background-position: center center; 
     }
-}
+} */
 
 /* 标签+分类+归档 效果 */
 .vpi-tag {
