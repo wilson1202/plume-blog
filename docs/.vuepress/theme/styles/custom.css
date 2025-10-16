@@ -3,6 +3,12 @@
   display: none;
 }
 
+/* ----------------Mermaid 图表样式调整----------------- */
+.mermaid-wrapper svg {
+  /* 图片平铺 */
+  width: 100%;
+  height: auto;
+}
 
 /* .vp-doc-footer{
     margin-top: 32px !important;
