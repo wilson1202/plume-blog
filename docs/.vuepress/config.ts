@@ -141,7 +141,7 @@ export default defineUserConfig({
       provider: 'algolia',
       appId: 'AJ60JVPY1F',
       apiKey: '6476161cdbd1c2613d2bc3bdda1a1277',
-      indexName: 'powersen',
+      indices: ['powersen'],
     },
 
     /**
