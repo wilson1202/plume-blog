@@ -10,11 +10,7 @@
     "onlyBuiltDependencies": [
       "@parcel/watcher",
       "esbuild"
-    ],
-    "overrides": {
-      "@vuepress/bundler-vite": "2.0.0-rc.26",
-      "vuepress": "2.0.0-rc.26"
-    }
+    ]
   },
   "engines": {
     "node": "^20.6.0 || >=22.0.0"
@@ -36,7 +32,7 @@
     "vue": "^3.5.24",
     "vuepress": "2.0.0-rc.26",
     "vuepress-plugin-meting2": "1.4.2",
-    "vuepress-theme-plume": "1.0.0-rc.176"
+    "vuepress-theme-plume": "1.0.0-rc.177"
   },
   "dependencies": {
     "artplayer": "^5.3.0",
@@ -44,7 +40,7 @@
     "dashjs": "^5.0.3",
     "echarts": "^6.0.0",
     "flowchart.ts": "^3.0.1",
-    "hls.js": "^1.6.14",
+    "hls.js": "^1.6.15",
     "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",
