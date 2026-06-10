@@ -128,7 +128,7 @@ make menuconfig
 
 按照如下配置进行选择，其他未说明的不要动
 
-::: demo-wrapper title="配置" 
+::: window title="配置" 
 
 - `Target System` -> `x86`
 - `Subtarget` -> `x86_64`

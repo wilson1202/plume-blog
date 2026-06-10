@@ -3,18 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "pnpm@10.21.0+sha512.da3337267e400fdd3d479a6c68079ac6db01d8ca4f67572083e722775a796788a7a9956613749e000fac20d424b594f7a791a5f4e2e13581c5ef947f26968a40",
+  "packageManager": "pnpm@11.5.2+sha512.71c631e382066efc25625d5cf029075de07b61b37f6e27350fbd84b1bda5864c8c1967adc280776b45c30a715c0359a3be08fef42d5bb09e2b99029979692916",
   "author": "wilson1202 <ibox_wilson@outlook.com>",
   "license": "MIT",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "esbuild"
-    ]
-  },
-  "engines": {
-    "node": "^20.6.0 || >=22.0.0"
-  },
   "scripts": {
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:dev": "vuepress dev docs",
@@ -23,28 +14,26 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.26",
-    "@vuepress/plugin-markdown-chart": "2.0.0-rc.118",
-    "@vuepress/plugin-pwa": "2.0.0-rc.119",
+    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "@vuepress/plugin-pwa": "2.0.0-rc.130",
     "http-server": "^14.1.1",
-    "twikoo": "^1.6.44",
-    "typescript": "^5.9.3",
-    "vue": "^3.5.24",
-    "vuepress": "2.0.0-rc.26",
+    "twikoo": "^1.7.11",
+    "typescript": "^6.0.3",
+    "vue": "^3.5.35",
+    "vuepress": "2.0.0-rc.30",
     "vuepress-plugin-meting2": "1.4.2",
-    "vuepress-theme-plume": "1.0.0-rc.178"
+    "vuepress-theme-plume": "1.0.0-rc.203"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.0.0"
   },
   "dependencies": {
-    "artplayer": "^5.3.0",
     "chart.js": "^4.5.1",
-    "dashjs": "^5.0.3",
-    "echarts": "^6.0.0",
+    "echarts": "^6.1.0",
     "flowchart.ts": "^3.0.1",
-    "hls.js": "^1.6.15",
     "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",
-    "mermaid": "^11.12.1",
-    "mpegts.js": "^1.8.0"
+    "mermaid": "^11.15.0"
   }
 }
