@@ -1,0 +1,16 @@
+packages:
+  - '.'
+
+# 允许运行构建脚本的依赖列表（解决 esbuild 报错）
+onlyBuiltDependencies:
+  - esbuild
+
+# 排除最小发布时间限制的依赖
+minimumReleaseAgeExclude:
+  - '@vuepress-plume/*'
+  - vuepress-plugin-md-power
+  - vuepress-theme-plume
+  - vitepress-plugin-filelist
+
+shamefullyHoist: true
+shellEmulator: true
