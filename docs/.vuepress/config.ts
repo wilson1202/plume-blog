@@ -14,6 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
 import metingPlugin from 'vuepress-plugin-meting2'
+import { fileListPlugin } from 'vuepress-plugin-filelist'
 
 const siteTitle = 'Powersen'
 const siteDescription = "This is Powersen's personal blog & notebook."
@@ -78,6 +79,9 @@ export default defineUserConfig({
         },
       },
     }),
+
+    // openlist 插件，用于挂载网络云盘
+    fileListPlugin(),
   ],
 
   head: [

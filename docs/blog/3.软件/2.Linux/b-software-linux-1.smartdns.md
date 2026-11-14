@@ -48,7 +48,7 @@ lsof -i:53
 
 2. 取消注释并修改以下行
 
-   ```ini title="resolved.conf"
+   ```ini title="/etc/systemd/resolved.conf"
    #DNSStubListener=yes
    DNSStubListener=no
    ```
@@ -87,7 +87,7 @@ vi /etc/smartdns/smartdns.conf
 
 ::: info `/etc/smartdns/smartdns.conf`{.filepath} 配置包含如下基本内容：
 
-```ini title="smartdns.conf"
+```ini title="/etc/smartdns/smartdns.conf"
 # 指定监听的端口号
 bind []:53 
 # 指定上游服务器

@@ -378,10 +378,88 @@ This is a details block.
 
 
 在对话窗口输入: <kbd>cmd</kbd>然后点击 OK 按钮。
- 
+
 保存文件请使用快捷键 <kbd>Ctrl</kbd>+<kbd>S</kbd>
 
 `interfaces`{.filepath} 
+
+
+
+## 文件列表 vitepress-plugin-filelist
+
+基于 OpenList 的文件浏览组件：树形目录、多根挂载、批量 ZIP、预览/下载、目录密码和 token。
+
+### 安装与注册
+
+```bash
+pnpm add -D vitepress-plugin-filelist
+```
+
+```ts
+// docs/.vitepress/plugins/index.ts
+import fileList from 'vitepress-plugin-filelist'
+
+export const plugins = [
+  // ...
+  fileList(),
+]
+```
+
+本站已经在上面的插件入口中注册，下面可以直接使用。
+
+### 演示模式
+
+不传 `base` 时使用内置演示数据：
+
+```md
+<FileList title="课程资料（演示数据）" />
+```
+
+<FileList title="课程资料（演示数据）" />
+
+### 单路径
+
+```md
+<FileList
+  base="https://demo.oplist.org"
+  path="/Document"
+  title="OpenList 演示站"
+/>
+```
+
+<FileList
+  base="https://demo.oplist.org"
+  path="/Document"
+  title="OpenList 演示站"
+/>
+
+### 多根挂载
+
+`sources` 可以把多个目录或单个文件挂到同一个组件里：
+
+```md
+<FileList
+  base="https://demo.oplist.org"
+  title="多根挂载"
+  :sources="[
+    { path: '/Document' },
+    { path: '/Document/example1.ppt' }
+  ]"
+/>
+```
+
+<FileList
+  base="https://demo.oplist.org"
+  title="多根挂载"
+  :sources="[
+    { path: '/Document' },
+    { path: '/Document/example1.ppt' }
+  ]"
+/>
+
+目录根默认折叠；加 `:expanded="true"` 或给单个 source 加 `expanded: true` 可以默认展开。
+
+
 
 **脚注：**
 
