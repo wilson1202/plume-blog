@@ -62,7 +62,7 @@ importers:
         version: 1.4.2
       vuepress-theme-plume:
         specifier: 1.0.0-rc.216
-        version: 1.0.0-rc.216(9691c8271e0c921c3ea3cf613b62f8ff)
+        version: 1.0.0-rc.216(5a29ad3b4a3e86bbe566f9e5cf72e6c3)
 
 packages:
 
@@ -2423,8 +2423,8 @@ packages:
     resolution: {integrity: sha512-gYzvtM72ZtxQO0T048kd6HWSbbGCNOUwcnfQ01cqIJ4X2IYKFFHZ5mKvrQETcFXxsRObZulDaKmy//R7TPtsBg==}
     engines: {node: '>=20.19.0'}
 
-  dompurify@3.4.17:
-    resolution: {integrity: sha512-B/pSlYVHQ58kqISD/yDjuJ1yfzI34m1gF4lAod2bwSRhiN4K5Cl3H8Af7hqB2PmTL911tdEudnnXn5FnhRoz0w==}
+  dompurify@3.4.18:
+    resolution: {integrity: sha512-ofe3wI/uNm68HInABYFJYqQxRw1EaKAjNdrFVKqjUY+UZurvNd2L/HuQe097s/4RivWiZyP6tT7aoT8atjfhwg==}
 
   domutils@3.2.2:
     resolution: {integrity: sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==}
@@ -2445,8 +2445,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.485:
-    resolution: {integrity: sha512-m3uadzR0Z+sR19HGWgfxoZcKv9hE/edVM9OZ+FJ4wNRyfuFtkwZJIDoehEty5sisYVwmge8lKV1tenWOyClVgw==}
+  electron-to-chromium@1.5.486:
+    resolution: {integrity: sha512-rpybw4Ac4ak/An6G1Me2+61xzwobowDGyuJe71QHHOVpkZv4fPVobsLl7WH6zHSKusAMpaHxGKTpOvpy7+r3dQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2592,8 +2592,8 @@ packages:
     resolution: {integrity: sha512-bBlP6IAe6A/Y9UXb27YhbGS39fTaGLHx1dyjNazIc0d6ntVGC2eIHP6siUQj9PMEX1M5vKXbTecpi+dn4Bhhjg==}
     engines: {node: ^18.0.0 || >= 20}
 
-  focus-trap@8.2.4:
-    resolution: {integrity: sha512-oy6dj7WZYgMbbpoOA29K5W++473F1zEzdI1oJgPb6x7yWT36YaWedUe6i6YPWEt5quSh0pRMohVyHLWXUxtdxg==}
+  focus-trap@8.2.5:
+    resolution: {integrity: sha512-VrqfyRXaHZ0EkhXlfyalszmhnSN9yjdYXwlwLSRoJrDJ0/eswY5J5Avj/Hcd/PrOHCMnsMhwx7+7+s1kmv9Asg==}
 
   follow-redirects@1.16.3:
     resolution: {integrity: sha512-toOSoqN6d51Wjf1aOFJYcoVv1aND9rj/CwjLU0Vz40oDuSpWDayCeKe4JpL5NL0WdFvoOOCI3BRo69HahjbR1A==}
@@ -3905,8 +3905,8 @@ packages:
     resolution: {integrity: sha512-eNRKgb3z66Yp3D2CixVujOUvXLFUTij/zVnV8KRyvFdQwpz7I5DS8UfRkTeLzb64u+dkzDSdelE24izu+zSSUg==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  tabbable@6.5.1:
-    resolution: {integrity: sha512-dMCuwDUY6Noz3zVKLefBC4wq+aJV20yc7vWmM7uTNGwtQSFF5kX7OUIUsxuVajz/bdt5Xqdah3/0NLjth+cM5A==}
+  tabbable@6.5.2:
+    resolution: {integrity: sha512-XgdnB1nGU6KU4VgMnZPaZCx7M1hBrLyEiZYau2G2gq9UT0d7d4FUBlNX7vvPlm/B1vk1PjrzJBx9Lbv4fsqS9g==}
 
   temp-dir@2.0.0:
     resolution: {integrity: sha512-aoBAniQmmwtcKp/7BzsH8Cxzv8OL736p7v1ihGb5e9DJ9kTwGWHrQrVB5+lfVDzfGrdRzXch+ig7LHaY1JTOrg==}
@@ -3938,8 +3938,9 @@ packages:
   tm-themes@1.12.12:
     resolution: {integrity: sha512-okyxQlASpDOtUA40+ZT0IGQyfObGOknntHY3kujfUlD8lj3ERMObDJNRgvlc/baVMsnJVQmtAB2nE7LFGTo0qQ==}
 
-  tokenx@2.2.0:
-    resolution: {integrity: sha512-VdOqWPybBSlPVATvuxkoa8XfrYOPmOUkpp1xesb0LZjmUBmXDVND2lPlm4tiEc5MHP1OlswxCY4s2KXkc5p3JA==}
+  tokenx@2.2.1:
+    resolution: {integrity: sha512-SUJNDK3y8yv9R3eHgo1HmtfOq1hUFNac3syYwtJ8xKbzKsc1Mbr54fduWceYWFsBIRwTG26GuL7N1AkyomONwg==}
+    engines: {node: '>=24'}
     hasBin: true
 
   trim-lines@3.0.1:
@@ -6034,9 +6035,9 @@ snapshots:
     dependencies:
       '@vuepress/helper': 2.0.0-rc.135(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.6)(@vue/compiler-sfc@3.5.45)(rollup@4.68.3)(supports-color@7.2.0)(terser@5.51.2)(typescript@6.0.3)(yaml@2.9.1))(typescript@6.0.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.45)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.6)(@vue/compiler-sfc@3.5.45)(rollup@4.68.3)(supports-color@7.2.0)(terser@5.51.2)(typescript@6.0.3)(yaml@2.9.1))(rolldown@1.3.2)(rollup@4.68.3)(supports-color@7.2.0)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(terser@5.51.2)(yaml@2.9.1))(vue@3.5.45(typescript@6.0.3)))
       '@vueuse/core': 15.0.0(vue@3.5.45(typescript@6.0.3))
-      '@vueuse/integrations': 15.0.0(focus-trap@8.2.4)(qrcode@1.5.4)(vue@3.5.45(typescript@6.0.3))
+      '@vueuse/integrations': 15.0.0(focus-trap@8.2.5)(qrcode@1.5.4)(vue@3.5.45(typescript@6.0.3))
       chokidar: 5.0.0
-      focus-trap: 8.2.4
+      focus-trap: 8.2.5
       mark.js: 8.11.1
       minisearch: 7.2.0
       p-map: 7.1.1
@@ -6323,7 +6324,7 @@ snapshots:
       mdast-util-from-markdown: 2.1.0(supports-color@7.2.0)
       millify: 6.1.0
       remark: 15.0.1(supports-color@7.2.0)
-      tokenx: 2.2.0
+      tokenx: 2.2.1
       unist-util-remove: 4.0.0
       unist-util-visit: 5.2.0
       vuepress: 2.0.0-rc.31(@vue/compiler-sfc@3.5.45)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.6)(@vue/compiler-sfc@3.5.45)(rollup@4.68.3)(supports-color@7.2.0)(terser@5.51.2)(typescript@6.0.3)(yaml@2.9.1))(rolldown@1.3.2)(rollup@4.68.3)(supports-color@7.2.0)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(terser@5.51.2)(yaml@2.9.1))(vue@3.5.45(typescript@6.0.3))
@@ -6560,13 +6561,13 @@ snapshots:
       '@vueuse/shared': 15.0.0(vue@3.5.45(typescript@6.0.3))
       vue: 3.5.45(typescript@6.0.3)
 
-  '@vueuse/integrations@15.0.0(focus-trap@8.2.4)(qrcode@1.5.4)(vue@3.5.45(typescript@6.0.3))':
+  '@vueuse/integrations@15.0.0(focus-trap@8.2.5)(qrcode@1.5.4)(vue@3.5.45(typescript@6.0.3))':
     dependencies:
       '@vueuse/core': 15.0.0(vue@3.5.45(typescript@6.0.3))
       '@vueuse/shared': 15.0.0(vue@3.5.45(typescript@6.0.3))
       vue: 3.5.45(typescript@6.0.3)
     optionalDependencies:
-      focus-trap: 8.2.4
+      focus-trap: 8.2.5
       qrcode: 1.5.4
 
   '@vueuse/metadata@15.0.0': {}
@@ -6715,7 +6716,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.11.37
       caniuse-lite: 1.0.30001826
-      electron-to-chromium: 1.5.485
+      electron-to-chromium: 1.5.486
       node-releases: 2.0.64
       update-browserslist-db: 1.3.4(browserslist@4.29.5)
 
@@ -7165,7 +7166,7 @@ snapshots:
     dependencies:
       domelementtype: 3.0.0
 
-  dompurify@3.4.17:
+  dompurify@3.4.18:
     optionalDependencies:
       '@types/trusted-types': 2.0.7
 
@@ -7196,7 +7197,7 @@ snapshots:
     dependencies:
       jake: 10.9.4
 
-  electron-to-chromium@1.5.485: {}
+  electron-to-chromium@1.5.486: {}
 
   emoji-regex@8.0.0: {}
 
@@ -7368,9 +7369,9 @@ snapshots:
       raphael: 2.3.0
       tslib: 2.9.1
 
-  focus-trap@8.2.4:
+  focus-trap@8.2.5:
     dependencies:
-      tabbable: 6.5.1
+      tabbable: 6.5.2
 
   follow-redirects@1.16.3(debug@4.4.3(supports-color@7.2.0)):
     optionalDependencies:
@@ -8101,7 +8102,7 @@ snapshots:
       d3-sankey: 0.12.3
       dagre-d3-es: 7.0.14
       dayjs: 1.11.23
-      dompurify: 3.4.17
+      dompurify: 3.4.18
       es-toolkit: 1.53.2
       fastdom: 1.0.12
       katex: 0.16.47
@@ -8948,7 +8949,7 @@ snapshots:
     dependencies:
       '@pkgr/core': 0.3.6
 
-  tabbable@6.5.1: {}
+  tabbable@6.5.2: {}
 
   temp-dir@2.0.0: {}
 
@@ -8979,7 +8980,7 @@ snapshots:
 
   tm-themes@1.12.12: {}
 
-  tokenx@2.2.0: {}
+  tokenx@2.2.1: {}
 
   trim-lines@3.0.1: {}
 
@@ -9193,7 +9194,7 @@ snapshots:
   vitepress-plugin-filelist@0.10.3(vue@3.5.45(typescript@6.0.3)):
     dependencies:
       client-zip: 2.5.1
-      dompurify: 3.4.17
+      dompurify: 3.4.18
       markdown-it: 14.3.3
       vue: 3.5.45(typescript@6.0.3)
 
@@ -9307,7 +9308,7 @@ snapshots:
       deepmerge-ts: 5.1.0
       hls.js: 1.7.4
 
-  vuepress-theme-plume@1.0.0-rc.216(9691c8271e0c921c3ea3cf613b62f8ff):
+  vuepress-theme-plume@1.0.0-rc.216(5a29ad3b4a3e86bbe566f9e5cf72e6c3):
     dependencies:
       '@iconify/utils': 3.1.7
       '@iconify/vue': 5.0.5(vue@3.5.45(typescript@6.0.3))
@@ -9337,7 +9338,7 @@ snapshots:
       '@vuepress/plugin-sitemap': 2.0.0-rc.137(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.6)(@vue/compiler-sfc@3.5.45)(rollup@4.68.3)(supports-color@7.2.0)(terser@5.51.2)(typescript@6.0.3)(yaml@2.9.1))(typescript@6.0.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.45)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.6)(@vue/compiler-sfc@3.5.45)(rollup@4.68.3)(supports-color@7.2.0)(terser@5.51.2)(typescript@6.0.3)(yaml@2.9.1))(rolldown@1.3.2)(rollup@4.68.3)(supports-color@7.2.0)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(terser@5.51.2)(yaml@2.9.1))(vue@3.5.45(typescript@6.0.3)))
       '@vuepress/plugin-watermark': 2.0.0-rc.135(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.6)(@vue/compiler-sfc@3.5.45)(rollup@4.68.3)(supports-color@7.2.0)(terser@5.51.2)(typescript@6.0.3)(yaml@2.9.1))(typescript@6.0.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.45)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.6)(@vue/compiler-sfc@3.5.45)(rollup@4.68.3)(supports-color@7.2.0)(terser@5.51.2)(typescript@6.0.3)(yaml@2.9.1))(rolldown@1.3.2)(rollup@4.68.3)(supports-color@7.2.0)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(terser@5.51.2)(yaml@2.9.1))(vue@3.5.45(typescript@6.0.3)))
       '@vueuse/core': 15.0.0(vue@3.5.45(typescript@6.0.3))
-      '@vueuse/integrations': 15.0.0(focus-trap@8.2.4)(qrcode@1.5.4)(vue@3.5.45(typescript@6.0.3))
+      '@vueuse/integrations': 15.0.0(focus-trap@8.2.5)(qrcode@1.5.4)(vue@3.5.45(typescript@6.0.3))
       chokidar: 5.0.0
       dayjs: 1.11.23
       find-file-icon: 1.0.0

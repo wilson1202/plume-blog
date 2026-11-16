@@ -5,7 +5,7 @@ packages:
 onlyBuiltDependencies:
   - esbuild
 
-# 排除最小发布时间限制的依赖
+# 最小发布时间豁免列表
 minimumReleaseAgeExclude:
   - '@vuepress-plume/*'
   - vuepress-plugin-md-power
