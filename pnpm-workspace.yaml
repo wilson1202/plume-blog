@@ -8,19 +8,12 @@ onlyBuiltDependencies:
 # 最小发布时间豁免列表
 minimumReleaseAgeExclude:
   - '@vuepress-plume/*'
+  - '@vue/*'
+  - 'vue'
   - vuepress-plugin-md-power
   - vuepress-theme-plume
   - vitepress-plugin-filelist
-  - '@vue/compiler-core@3.5.46'
-  - '@vue/compiler-dom@3.5.46'
-  - '@vue/compiler-sfc@3.5.46'
-  - '@vue/compiler-ssr@3.5.46'
-  - '@vue/reactivity@3.5.46'
-  - '@vue/runtime-core@3.5.46'
-  - '@vue/runtime-dom@3.5.46'
-  - '@vue/server-renderer@3.5.46'
-  - '@vue/shared@3.5.46'
-  - vue@3.5.46
 
+# 按需开启（默认先保持关闭，遇到对应问题再开）
 shamefullyHoist: true
 shellEmulator: true
