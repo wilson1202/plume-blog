@@ -8,14 +8,13 @@ onlyBuiltDependencies:
 # 最小发布时间豁免列表
 minimumReleaseAgeExclude:
   - '@vuepress-plume/*'
+  - '@vuepress/*'
   - '@vue/*'
   - 'vue'
   - vuepress-plugin-md-power
   - vuepress-theme-plume
-  - vitepress-plugin-filelist
-  - '@vuepress/helper@2.0.0-rc.139'
-  - '@vuepress/plugin-pwa@2.0.0-rc.139'
-  - vuepress-plugin-filelist@0.15.3
+  - vuepress-plugin-filelist
+  - vitepress-plugin-filelist@0.15.3
 
 # 按需开启（默认先保持关闭，遇到对应问题再开）
 shamefullyHoist: true
