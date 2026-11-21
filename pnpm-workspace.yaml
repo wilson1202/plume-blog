@@ -11,10 +11,10 @@ minimumReleaseAgeExclude:
   - '@vuepress/*'
   - '@vue/*'
   - 'vue'
-  - vuepress-plugin-md-power
-  - vuepress-theme-plume
-  - vuepress-plugin-filelist
-  - vitepress-plugin-filelist@0.15.3
+  - 'vuepress-plugin-md-power'
+  - 'vuepress-theme-plume'
+  - 'vuepress-plugin-filelist'
+  - 'vitepress-plugin-filelist'
 
 # 按需开启（默认先保持关闭，遇到对应问题再开）
 shamefullyHoist: true
